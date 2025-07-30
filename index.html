@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Command List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #161616;
+            --card-color: #1F1F1F;
+            --text-primary: #E0E0E0;
+            --text-secondary: #A0A0A0;
+            --accent-gold: #B89B48;
+            --border-color: #333333;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 2rem 1.5rem;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .title-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .title-icon {
+            background-color: var(--card-color);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            width: 48px;
+            height: 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .search-container {
+            position: relative;
+        }
+
+        #search-input {
+            background-color: var(--card-color);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 10px 15px 10px 40px;
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            width: 250px;
+            transition: all 0.2s ease;
+        }
+        
+        #search-input:focus {
+            outline: none;
+            border-color: var(--accent-gold);
+            width: 300px;
+        }
+
+        .search-container::before {
+            content: '🔍';
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-secondary);
+        }
+
+        #category-filters {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 2.5rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background-color: var(--card-color);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .filter-btn:hover {
+            color: var(--text-primary);
+            border-color: var(--text-secondary);
+        }
+        
+        .filter-btn.active {
+            color: var(--accent-gold);
+            border-color: var(--accent-gold);
+            box-shadow: 0 0 10px rgba(184, 155, 72, 0.2);
+        }
+
+        .cmd-count {
+            background-color: var(--border-color);
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+            padding: 2px 6px;
+            border-radius: 6px;
+        }
+        
+        #command-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .command-card {
+            background-color: var(--card-color);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .command-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.5rem;
+        }
+
+        .command-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .command-description {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .info-section {
+            margin-top: 0.5rem;
+        }
+
+        .info-section h3 {
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin: 0 0 0.5rem 0;
+            font-weight: 600;
+        }
+        
+        .pills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .pill {
+            background-color: var(--border-color);
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            font-weight: 500;
+            padding: 4px 10px;
+            border-radius: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="title-container">
+                <div class="title-icon">›_</div>
+                <h1>Commands</h1>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search">
+            </div>
+        </header>
+
+        <nav id="category-filters"></nav>
+
+        <main id="command-grid"></main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const commandGrid = document.getElementById('command-grid');
+            const categoryFiltersContainer = document.getElementById('category-filters');
+            const searchInput = document.getElementById('search-input');
+            let allCommands = [];
+            let currentFilter = 'All';
+
+            const renderCommands = (commandsToRender) => {
+                commandGrid.innerHTML = '';
+                if (commandsToRender.length === 0) {
+                    commandGrid.innerHTML = `<p style="color: var(--text-secondary); grid-column: 1 / -1; text-align: center;">No commands found.</p>`;
+                    return;
+                }
+                commandsToRender.forEach(cmd => {
+                    const card = document.createElement('div');
+                    card.className = 'command-card';
+
+                    const argsHtml = cmd.arguments && cmd.arguments.length > 0
+                        ? cmd.arguments.map(arg => `<span class="pill">${arg}</span>`).join('')
+                        : '<span class="pill">none</span>';
+
+                    const permsHtml = cmd.permissions && cmd.permissions.length > 0
+                        ? cmd.permissions.map(perm => `<span class="pill">${perm}</span>`).join('')
+                        : '<span class="pill">none</span>';
+
+                    card.innerHTML = `
+                        <div class="card-header">
+                            <span class="command-name">${cmd.name}</span>
+                        </div>
+                        <p class="command-description">${cmd.description || "No description available."}</p>
+                        <div class="info-section">
+                            <h3>Arguments</h3>
+                            <div class="pills-container">${argsHtml}</div>
+                        </div>
+                        <div class="info-section">
+                            <h3>Permissions</h3>
+                            <div class="pills-container">${permsHtml}</div>
+                        </div>
+                    `;
+                    commandGrid.appendChild(card);
+                });
+            };
+
+            const populateFilters = (commands) => {
+                const categories = commands.reduce((acc, cmd) => {
+                    const category = cmd.category || 'misc';
+                    acc[category] = (acc[category] || 0) + 1;
+                    return acc;
+                }, {});
+
+                categoryFiltersContainer.innerHTML = ''; // Clear existing
+
+                // "All" button first
+                const allBtn = document.createElement('button');
+                allBtn.className = 'filter-btn active';
+                allBtn.textContent = 'All';
+                allBtn.dataset.category = 'All';
+                const allCountSpan = document.createElement('span');
+                allCountSpan.className = 'cmd-count';
+                allCountSpan.textContent = commands.length;
+                allBtn.appendChild(allCountSpan);
+                categoryFiltersContainer.appendChild(allBtn);
+
+                // Other category buttons
+                for (const [category, count] of Object.entries(categories)) {
+                    const btn = document.createElement('button');
+                    btn.className = 'filter-btn';
+                    btn.textContent = category;
+                    btn.dataset.category = category;
+                    const countSpan = document.createElement('span');
+                    countSpan.className = 'cmd-count';
+                    countSpan.textContent = count;
+                    btn.appendChild(countSpan);
+                    categoryFiltersContainer.appendChild(btn);
+                }
+
+                // Add event listeners to all buttons
+                categoryFiltersContainer.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        categoryFiltersContainer.querySelector('.active')?.classList.remove('active');
+                        btn.classList.add('active');
+                        currentFilter = btn.dataset.category;
+                        applyFilters();
+                    });
+                });
+            };
+
+            const applyFilters = () => {
+                const searchTerm = searchInput.value.toLowerCase();
+                let filtered = allCommands;
+
+                if (currentFilter !== 'All') {
+                    filtered = filtered.filter(cmd => (cmd.category || 'misc') === currentFilter);
+                }
+
+                if (searchTerm) {
+                    filtered = filtered.filter(cmd =>
+                        cmd.name.toLowerCase().includes(searchTerm) ||
+                        (cmd.description && cmd.description.toLowerCase().includes(searchTerm))
+                    );
+                }
+                
+                renderCommands(filtered);
+            };
+
+            const fetchAndRender = async () => {
+                try {
+                    const response = await fetch('./commands.json');
+                    if (!response.ok) throw new Error('Network response was not ok');
+                    allCommands = await response.json();
+                    populateFilters(allCommands);
+                    renderCommands(allCommands);
+                } catch (error) {
+                    commandGrid.innerHTML = `<p style="color: #ED4245; text-align: center;">Error: Could not load command data. Make sure 'commands.json' exists in the same directory.</p>`;
+                    console.error('Fetch error:', error);
+                }
+            };
+            
+            searchInput.addEventListener('input', applyFilters);
+            fetchAndRender();
+        });
+    </script>
+
+</body>
+</html>
