@@ -1,0 +1,1730 @@
+[
+  {
+    "name": "adopt",
+    "description": "Description available in the bot's help command.",
+    "category": "Love",
+    "type": "prefix",
+    "usage": ".adopt",
+    "aliases": []
+  },
+  {
+    "name": "afk",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "prefix",
+    "usage": ".afk",
+    "aliases": []
+  },
+  {
+    "name": "afk",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "slash",
+    "usage": "/afk",
+    "aliases": []
+  },
+  {
+    "name": "ai",
+    "description": "Description available in the bot's help command.",
+    "category": "owner",
+    "type": "slash",
+    "usage": "/ai",
+    "aliases": []
+  },
+  {
+    "name": "all",
+    "description": "Description available in the bot's help command.",
+    "category": "owner",
+    "type": "slash",
+    "usage": "/all",
+    "aliases": []
+  },
+  {
+    "name": "ascii",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".ascii",
+    "aliases": []
+  },
+  {
+    "name": "automod",
+    "description": "Description available in the bot's help command.",
+    "category": "automod",
+    "type": "slash",
+    "usage": "/automod",
+    "aliases": []
+  },
+  {
+    "name": "autoreact",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "slash",
+    "usage": "/autoreact",
+    "aliases": []
+  },
+  {
+    "name": "autoresponder",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "slash",
+    "usage": "/autoresponder",
+    "aliases": []
+  },
+  {
+    "name": "ban",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".ban",
+    "aliases": []
+  },
+  {
+    "name": "bandorbx",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".bandorbx",
+    "aliases": []
+  },
+  {
+    "name": "bbl",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".bbl",
+    "aliases": []
+  },
+  {
+    "name": "bio",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".bio",
+    "aliases": []
+  },
+  {
+    "name": "birthday",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "slash",
+    "usage": "/birthday",
+    "aliases": []
+  },
+  {
+    "name": "blacklist",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".blacklist",
+    "aliases": []
+  },
+  {
+    "name": "blacklistcheck",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".blacklistcheck",
+    "aliases": []
+  },
+  {
+    "name": "bodycount",
+    "description": "Description available in the bot's help command.",
+    "category": "Leaderboards",
+    "type": "prefix",
+    "usage": ".bodycount",
+    "aliases": []
+  },
+  {
+    "name": "bookmarkmemory",
+    "description": "Description available in the bot's help command.",
+    "category": "Memory",
+    "type": "prefix",
+    "usage": ".bookmarkmemory",
+    "aliases": []
+  },
+  {
+    "name": "bookmarks",
+    "description": "Description available in the bot's help command.",
+    "category": "Memory",
+    "type": "prefix",
+    "usage": ".bookmarks",
+    "aliases": []
+  },
+  {
+    "name": "breakup",
+    "description": "Description available in the bot's help command.",
+    "category": "Love",
+    "type": "prefix",
+    "usage": ".breakup",
+    "aliases": []
+  },
+  {
+    "name": "brunorbx",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".brunorbx",
+    "aliases": []
+  },
+  {
+    "name": "bt",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".bt",
+    "aliases": []
+  },
+  {
+    "name": "buttonrole",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "slash",
+    "usage": "/buttonrole",
+    "aliases": []
+  },
+  {
+    "name": "c",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".c",
+    "aliases": []
+  },
+  {
+    "name": "calc",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".calc",
+    "aliases": []
+  },
+  {
+    "name": "capture",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".capture",
+    "aliases": []
+  },
+  {
+    "name": "captureset",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".captureset",
+    "aliases": []
+  },
+  {
+    "name": "cashapp",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "prefix",
+    "usage": ".cashapp",
+    "aliases": []
+  },
+  {
+    "name": "cat",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".cat",
+    "aliases": []
+  },
+  {
+    "name": "chess",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".chess",
+    "aliases": []
+  },
+  {
+    "name": "clearcuss",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".clearcuss",
+    "aliases": []
+  },
+  {
+    "name": "clearwarns",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".clearwarns",
+    "aliases": []
+  },
+  {
+    "name": "cm",
+    "description": "Description available in the bot's help command.",
+    "category": "BetaCMDs",
+    "type": "prefix",
+    "usage": ".cm",
+    "aliases": []
+  },
+  {
+    "name": "cmu",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".cmu",
+    "aliases": []
+  },
+  {
+    "name": "compliment",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".compliment",
+    "aliases": []
+  },
+  {
+    "name": "contact",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".contact",
+    "aliases": []
+  },
+  {
+    "name": "copy",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".copy",
+    "aliases": []
+  },
+  {
+    "name": "cquote",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".cquote",
+    "aliases": []
+  },
+  {
+    "name": "crypto",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "prefix",
+    "usage": ".crypto",
+    "aliases": []
+  },
+  {
+    "name": "cs",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".cs",
+    "aliases": []
+  },
+  {
+    "name": "cuddle",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".cuddle",
+    "aliases": []
+  },
+  {
+    "name": "date",
+    "description": "Description available in the bot's help command.",
+    "category": "Love",
+    "type": "prefix",
+    "usage": ".date",
+    "aliases": []
+  },
+  {
+    "name": "define",
+    "description": "Description available in the bot's help command.",
+    "category": "Dictionary",
+    "type": "prefix",
+    "usage": ".define",
+    "aliases": []
+  },
+  {
+    "name": "deletememory",
+    "description": "Description available in the bot's help command.",
+    "category": "Memory",
+    "type": "prefix",
+    "usage": ".deletememory",
+    "aliases": []
+  },
+  {
+    "name": "disown",
+    "description": "Description available in the bot's help command.",
+    "category": "Love",
+    "type": "prefix",
+    "usage": ".disown",
+    "aliases": []
+  },
+  {
+    "name": "divorce",
+    "description": "Description available in the bot's help command.",
+    "category": "Love",
+    "type": "prefix",
+    "usage": ".divorce",
+    "aliases": []
+  },
+  {
+    "name": "dm",
+    "description": "Description available in the bot's help command.",
+    "category": "fun",
+    "type": "slash",
+    "usage": "/dm",
+    "aliases": []
+  },
+  {
+    "name": "dmall",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".dmall",
+    "aliases": []
+  },
+  {
+    "name": "dog",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".dog",
+    "aliases": []
+  },
+  {
+    "name": "embed",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".embed",
+    "aliases": []
+  },
+  {
+    "name": "embed",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "slash",
+    "usage": "/embed",
+    "aliases": []
+  },
+  {
+    "name": "es",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".es",
+    "aliases": []
+  },
+  {
+    "name": "eval",
+    "description": "Description available in the bot's help command.",
+    "category": "owner",
+    "type": "slash",
+    "usage": "/eval",
+    "aliases": []
+  },
+  {
+    "name": "evalv2",
+    "description": "Description available in the bot's help command.",
+    "category": "owner",
+    "type": "slash",
+    "usage": "/evalv2",
+    "aliases": []
+  },
+  {
+    "name": "exchange",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "prefix",
+    "usage": ".exchange",
+    "aliases": []
+  },
+  {
+    "name": "exportmemories",
+    "description": "Description available in the bot's help command.",
+    "category": "Memory",
+    "type": "prefix",
+    "usage": ".exportmemories",
+    "aliases": []
+  },
+  {
+    "name": "fact",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".fact",
+    "aliases": []
+  },
+  {
+    "name": "fakedm",
+    "description": "Description available in the bot's help command.",
+    "category": "admin",
+    "type": "slash",
+    "usage": "/fakedm",
+    "aliases": []
+  },
+  {
+    "name": "Family",
+    "description": "Description available in the bot's help command.",
+    "category": "Love",
+    "type": "prefix",
+    "usage": ".Family",
+    "aliases": []
+  },
+  {
+    "name": "fbodies",
+    "description": "Description available in the bot's help command.",
+    "category": "Leaderboards",
+    "type": "prefix",
+    "usage": ".fbodies",
+    "aliases": []
+  },
+  {
+    "name": "fight",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".fight",
+    "aliases": []
+  },
+  {
+    "name": "find",
+    "description": "Description available in the bot's help command.",
+    "category": "kanye",
+    "type": "prefix",
+    "usage": ".find",
+    "aliases": []
+  },
+  {
+    "name": "findsong",
+    "description": "Description available in the bot's help command.",
+    "category": "kanye",
+    "type": "prefix",
+    "usage": ".findsong",
+    "aliases": []
+  },
+  {
+    "name": "fip",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".fip",
+    "aliases": []
+  },
+  {
+    "name": "firstmessage",
+    "description": "Description available in the bot's help command.",
+    "category": "BetaCMDs",
+    "type": "prefix",
+    "usage": ".firstmessage",
+    "aliases": []
+  },
+  {
+    "name": "flb",
+    "description": "Description available in the bot's help command.",
+    "category": "Leaderboards",
+    "type": "prefix",
+    "usage": ".flb",
+    "aliases": []
+  },
+  {
+    "name": "fn",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".fn",
+    "aliases": []
+  },
+  {
+    "name": "fo",
+    "description": "Description available in the bot's help command.",
+    "category": "Games",
+    "type": "prefix",
+    "usage": ".fo",
+    "aliases": []
+  },
+  {
+    "name": "forcepair",
+    "description": "Description available in the bot's help command.",
+    "category": "Love",
+    "type": "prefix",
+    "usage": ".forcepair",
+    "aliases": []
+  },
+  {
+    "name": "ft",
+    "description": "Description available in the bot's help command.",
+    "category": "Leaderboards",
+    "type": "prefix",
+    "usage": ".ft",
+    "aliases": []
+  },
+  {
+    "name": "fulltree",
+    "description": "Description available in the bot's help command.",
+    "category": "Love",
+    "type": "prefix",
+    "usage": ".fulltree",
+    "aliases": []
+  },
+  {
+    "name": "game",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".game",
+    "aliases": []
+  },
+  {
+    "name": "gangsta",
+    "description": "Description available in the bot's help command.",
+    "category": "kanye",
+    "type": "prefix",
+    "usage": ".gangsta",
+    "aliases": []
+  },
+  {
+    "name": "gayrate",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".gayrate",
+    "aliases": []
+  },
+  {
+    "name": "gdm",
+    "description": "Description available in the bot's help command.",
+    "category": "owner",
+    "type": "slash",
+    "usage": "/gdm",
+    "aliases": []
+  },
+  {
+    "name": "generatepassword",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".generatepassword",
+    "aliases": []
+  },
+  {
+    "name": "gif",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".gif",
+    "aliases": []
+  },
+  {
+    "name": "giveaway",
+    "description": "Description available in the bot's help command.",
+    "category": "giveaway",
+    "type": "slash",
+    "usage": "/giveaway",
+    "aliases": []
+  },
+  {
+    "name": "globaltouchleaderboard",
+    "description": "Description available in the bot's help command.",
+    "category": "Leaderboards",
+    "type": "prefix",
+    "usage": ".globaltouchleaderboard",
+    "aliases": []
+  },
+  {
+    "name": "gm",
+    "description": "Description available in the bot's help command.",
+    "category": "BetaCMDs",
+    "type": "prefix",
+    "usage": ".gm",
+    "aliases": []
+  },
+  {
+    "name": "grabbreast",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".grabbreast",
+    "aliases": []
+  },
+  {
+    "name": "grabwaist",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".grabwaist",
+    "aliases": []
+  },
+  {
+    "name": "hangman",
+    "description": "Description available in the bot's help command.",
+    "category": "Games",
+    "type": "prefix",
+    "usage": ".hangman",
+    "aliases": []
+  },
+  {
+    "name": "hangstop",
+    "description": "Description available in the bot's help command.",
+    "category": "Games",
+    "type": "prefix",
+    "usage": ".hangstop",
+    "aliases": []
+  },
+  {
+    "name": "haunt",
+    "description": "Description available in the bot's help command.",
+    "category": "owner",
+    "type": "slash",
+    "usage": "/haunt",
+    "aliases": []
+  },
+  {
+    "name": "hb",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".hb",
+    "aliases": []
+  },
+  {
+    "name": "hide",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".hide",
+    "aliases": []
+  },
+  {
+    "name": "hityart",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".hityart",
+    "aliases": []
+  },
+  {
+    "name": "impersonate",
+    "description": "Description available in the bot's help command.",
+    "category": "fun",
+    "type": "slash",
+    "usage": "/impersonate",
+    "aliases": []
+  },
+  {
+    "name": "invites",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "prefix",
+    "usage": ".invites",
+    "aliases": []
+  },
+  {
+    "name": "invites",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "slash",
+    "usage": "/invites",
+    "aliases": []
+  },
+  {
+    "name": "ip",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".ip",
+    "aliases": []
+  },
+  {
+    "name": "iplookup",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".iplookup",
+    "aliases": []
+  },
+  {
+    "name": "jbsrbx",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".jbsrbx",
+    "aliases": []
+  },
+  {
+    "name": "kanye",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".kanye",
+    "aliases": []
+  },
+  {
+    "name": "kanye",
+    "description": "Description available in the bot's help command.",
+    "category": "fun",
+    "type": "slash",
+    "usage": "/kanye",
+    "aliases": []
+  },
+  {
+    "name": "kanyesong",
+    "description": "Description available in the bot's help command.",
+    "category": "kanye",
+    "type": "prefix",
+    "usage": ".kanyesong",
+    "aliases": []
+  },
+  {
+    "name": "kfurbx",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".kfurbx",
+    "aliases": []
+  },
+  {
+    "name": "kick",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".kick",
+    "aliases": []
+  },
+  {
+    "name": "kiss",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".kiss",
+    "aliases": []
+  },
+  {
+    "name": "ldm",
+    "description": "Description available in the bot's help command.",
+    "category": "Bad",
+    "type": "prefix",
+    "usage": ".ldm",
+    "aliases": []
+  },
+  {
+    "name": "leave",
+    "description": "Description available in the bot's help command.",
+    "category": "setup",
+    "type": "slash",
+    "usage": "/leave",
+    "aliases": []
+  },
+  {
+    "name": "lesbianrate",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".lesbianrate",
+    "aliases": []
+  },
+  {
+    "name": "lick",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".lick",
+    "aliases": []
+  },
+  {
+    "name": "listfn",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".listfn",
+    "aliases": []
+  },
+  {
+    "name": "lock",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".lock",
+    "aliases": []
+  },
+  {
+    "name": "logs",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "slash",
+    "usage": "/logs",
+    "aliases": []
+  },
+  {
+    "name": "lp",
+    "description": "Description available in the bot's help command.",
+    "category": "Bad",
+    "type": "prefix",
+    "usage": ".lp",
+    "aliases": []
+  },
+  {
+    "name": "lyrics",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".lyrics",
+    "aliases": []
+  },
+  {
+    "name": "mac",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".mac",
+    "aliases": []
+  },
+  {
+    "name": "macadd",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".macadd",
+    "aliases": []
+  },
+  {
+    "name": "Maintenance ",
+    "description": "Description available in the bot's help command.",
+    "category": "owner",
+    "type": "slash",
+    "usage": "/Maintenance ",
+    "aliases": []
+  },
+  {
+    "name": "marry",
+    "description": "Description available in the bot's help command.",
+    "category": "Love",
+    "type": "prefix",
+    "usage": ".marry",
+    "aliases": []
+  },
+  {
+    "name": "math",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".math",
+    "aliases": []
+  },
+  {
+    "name": "meme",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".meme",
+    "aliases": []
+  },
+  {
+    "name": "memories",
+    "description": "Description available in the bot's help command.",
+    "category": "Memory",
+    "type": "prefix",
+    "usage": ".memories",
+    "aliases": []
+  },
+  {
+    "name": "memory",
+    "description": "Description available in the bot's help command.",
+    "category": "Memory",
+    "type": "prefix",
+    "usage": ".memory",
+    "aliases": []
+  },
+  {
+    "name": "memoryinfo",
+    "description": "Description available in the bot's help command.",
+    "category": "Memory",
+    "type": "prefix",
+    "usage": ".memoryinfo",
+    "aliases": []
+  },
+  {
+    "name": "mock",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".mock",
+    "aliases": []
+  },
+  {
+    "name": "msm",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".msm",
+    "aliases": []
+  },
+  {
+    "name": "music",
+    "description": "Description available in the bot's help command.",
+    "category": "music",
+    "type": "slash",
+    "usage": "/music",
+    "aliases": []
+  },
+  {
+    "name": "muteunmute",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".muteunmute",
+    "aliases": []
+  },
+  {
+    "name": "nh",
+    "description": "Description available in the bot's help command.",
+    "category": "owner",
+    "type": "slash",
+    "usage": "/nh",
+    "aliases": []
+  },
+  {
+    "name": "nickname",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".nickname",
+    "aliases": []
+  },
+  {
+    "name": "owoify",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".owoify",
+    "aliases": []
+  },
+  {
+    "name": "passwordstrength",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".passwordstrength",
+    "aliases": []
+  },
+  {
+    "name": "passwordstrength",
+    "description": "Description available in the bot's help command.",
+    "category": "fun",
+    "type": "slash",
+    "usage": "/passwordstrength",
+    "aliases": []
+  },
+  {
+    "name": "pat",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".pat",
+    "aliases": []
+  },
+  {
+    "name": "poke",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".poke",
+    "aliases": []
+  },
+  {
+    "name": "profile-edit",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".profile-edit",
+    "aliases": []
+  },
+  {
+    "name": "progenitor",
+    "description": "Description available in the bot's help command.",
+    "category": "Love",
+    "type": "prefix",
+    "usage": ".progenitor",
+    "aliases": []
+  },
+  {
+    "name": "punc",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".punc",
+    "aliases": []
+  },
+  {
+    "name": "purge",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".purge",
+    "aliases": []
+  },
+  {
+    "name": "qr",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".qr",
+    "aliases": []
+  },
+  {
+    "name": "quote",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".quote",
+    "aliases": []
+  },
+  {
+    "name": "randmemory",
+    "description": "Description available in the bot's help command.",
+    "category": "Memory",
+    "type": "prefix",
+    "usage": ".randmemory",
+    "aliases": []
+  },
+  {
+    "name": "rate",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".rate",
+    "aliases": []
+  },
+  {
+    "name": "refreshcommands",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".refreshcommands",
+    "aliases": []
+  },
+  {
+    "name": "release",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".release",
+    "aliases": []
+  },
+  {
+    "name": "remindme",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".remindme",
+    "aliases": []
+  },
+  {
+    "name": "remixavatar",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".remixavatar",
+    "aliases": []
+  },
+  {
+    "name": "restorenick",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".restorenick",
+    "aliases": []
+  },
+  {
+    "name": "restoreroles",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".restoreroles",
+    "aliases": []
+  },
+  {
+    "name": "retire",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".retire",
+    "aliases": []
+  },
+  {
+    "name": "retire",
+    "description": "Description available in the bot's help command.",
+    "category": "setup",
+    "type": "slash",
+    "usage": "/retire",
+    "aliases": []
+  },
+  {
+    "name": "retireset",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".retireset",
+    "aliases": []
+  },
+  {
+    "name": "retireset",
+    "description": "Description available in the bot's help command.",
+    "category": "setup",
+    "type": "slash",
+    "usage": "/retireset",
+    "aliases": []
+  },
+  {
+    "name": "roblox",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".roblox",
+    "aliases": []
+  },
+  {
+    "name": "role",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".role",
+    "aliases": []
+  },
+  {
+    "name": "runaway",
+    "description": "Description available in the bot's help command.",
+    "category": "Love",
+    "type": "prefix",
+    "usage": ".runaway",
+    "aliases": []
+  },
+  {
+    "name": "say",
+    "description": "Description available in the bot's help command.",
+    "category": "fun",
+    "type": "slash",
+    "usage": "/say",
+    "aliases": []
+  },
+  {
+    "name": "sb",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".sb",
+    "aliases": []
+  },
+  {
+    "name": "scramble",
+    "description": "Description available in the bot's help command.",
+    "category": "Games",
+    "type": "prefix",
+    "usage": ".scramble",
+    "aliases": []
+  },
+  {
+    "name": "searchmemories",
+    "description": "Description available in the bot's help command.",
+    "category": "Memory",
+    "type": "prefix",
+    "usage": ".searchmemories",
+    "aliases": []
+  },
+  {
+    "name": "serversi",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".serversi",
+    "aliases": []
+  },
+  {
+    "name": "serverstats",
+    "description": "Description available in the bot's help command.",
+    "category": "setup",
+    "type": "slash",
+    "usage": "/serverstats",
+    "aliases": []
+  },
+  {
+    "name": "setbanner",
+    "description": "Description available in the bot's help command.",
+    "category": "owner",
+    "type": "slash",
+    "usage": "/setbanner",
+    "aliases": []
+  },
+  {
+    "name": "setbody",
+    "description": "Description available in the bot's help command.",
+    "category": "Games",
+    "type": "prefix",
+    "usage": ".setbody",
+    "aliases": []
+  },
+  {
+    "name": "setpfp",
+    "description": "Description available in the bot's help command.",
+    "category": "owner",
+    "type": "slash",
+    "usage": "/setpfp",
+    "aliases": []
+  },
+  {
+    "name": "setprefix",
+    "description": "Description available in the bot's help command.",
+    "category": "setup",
+    "type": "slash",
+    "usage": "/setprefix",
+    "aliases": []
+  },
+  {
+    "name": "settouch",
+    "description": "Description available in the bot's help command.",
+    "category": "Games",
+    "type": "prefix",
+    "usage": ".settouch",
+    "aliases": []
+  },
+  {
+    "name": "sfw",
+    "description": "Description available in the bot's help command.",
+    "category": "Games",
+    "type": "prefix",
+    "usage": ".sfw",
+    "aliases": []
+  },
+  {
+    "name": "sharememory",
+    "description": "Description available in the bot's help command.",
+    "category": "Memory",
+    "type": "prefix",
+    "usage": ".sharememory",
+    "aliases": []
+  },
+  {
+    "name": "ship",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".ship",
+    "aliases": []
+  },
+  {
+    "name": "ship",
+    "description": "Description available in the bot's help command.",
+    "category": "fun",
+    "type": "slash",
+    "usage": "/ship",
+    "aliases": []
+  },
+  {
+    "name": "shorten",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".shorten",
+    "aliases": []
+  },
+  {
+    "name": "shutdown",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".shutdown",
+    "aliases": []
+  },
+  {
+    "name": "slap",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".slap",
+    "aliases": []
+  },
+  {
+    "name": "slaves",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".slaves",
+    "aliases": []
+  },
+  {
+    "name": "slowmode",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".slowmode",
+    "aliases": []
+  },
+  {
+    "name": "snipe",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".snipe",
+    "aliases": []
+  },
+  {
+    "name": "softban",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".softban",
+    "aliases": []
+  },
+  {
+    "name": "songk",
+    "description": "Description available in the bot's help command.",
+    "category": "kanye",
+    "type": "prefix",
+    "usage": ".songk",
+    "aliases": []
+  },
+  {
+    "name": "sqr",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".sqr",
+    "aliases": []
+  },
+  {
+    "name": "ss",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "prefix",
+    "usage": ".ss",
+    "aliases": []
+  },
+  {
+    "name": "steal",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".steal",
+    "aliases": []
+  },
+  {
+    "name": "sticky",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "slash",
+    "usage": "/sticky",
+    "aliases": []
+  },
+  {
+    "name": "sw",
+    "description": "Description available in the bot's help command.",
+    "category": "Games",
+    "type": "prefix",
+    "usage": ".sw",
+    "aliases": []
+  },
+  {
+    "name": "t",
+    "description": "Description available in the bot's help command.",
+    "category": "daily",
+    "type": "slash",
+    "usage": "/t",
+    "aliases": []
+  },
+  {
+    "name": "tempban",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".tempban",
+    "aliases": []
+  },
+  {
+    "name": "timeout",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".timeout",
+    "aliases": []
+  },
+  {
+    "name": "timezone",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".timezone",
+    "aliases": []
+  },
+  {
+    "name": "touchedby",
+    "description": "Description available in the bot's help command.",
+    "category": "Leaderboards",
+    "type": "prefix",
+    "usage": ".touchedby",
+    "aliases": []
+  },
+  {
+    "name": "touchleaderboard",
+    "description": "Description available in the bot's help command.",
+    "category": "Leaderboards",
+    "type": "prefix",
+    "usage": ".touchleaderboard",
+    "aliases": []
+  },
+  {
+    "name": "translate",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".translate",
+    "aliases": []
+  },
+  {
+    "name": "tree",
+    "description": "Description available in the bot's help command.",
+    "category": "Love",
+    "type": "prefix",
+    "usage": ".tree",
+    "aliases": []
+  },
+  {
+    "name": "ttsfile",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".ttsfile",
+    "aliases": []
+  },
+  {
+    "name": "tweet",
+    "description": "Description available in the bot's help command.",
+    "category": "kanye",
+    "type": "prefix",
+    "usage": ".tweet",
+    "aliases": []
+  },
+  {
+    "name": "tweet-goodno",
+    "description": "Description available in the bot's help command.",
+    "category": "kanye",
+    "type": "prefix",
+    "usage": ".tweet-goodno",
+    "aliases": []
+  },
+  {
+    "name": "type",
+    "description": "Description available in the bot's help command.",
+    "category": "Games",
+    "type": "prefix",
+    "usage": ".type",
+    "aliases": []
+  },
+  {
+    "name": "unban",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".unban",
+    "aliases": []
+  },
+  {
+    "name": "unblacklist",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".unblacklist",
+    "aliases": []
+  },
+  {
+    "name": "unfn",
+    "description": "Description available in the bot's help command.",
+    "category": "Owner",
+    "type": "prefix",
+    "usage": ".unfn",
+    "aliases": []
+  },
+  {
+    "name": "unhide",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".unhide",
+    "aliases": []
+  },
+  {
+    "name": "unlock",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".unlock",
+    "aliases": []
+  },
+  {
+    "name": "unrole",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".unrole",
+    "aliases": []
+  },
+  {
+    "name": "untime",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".untime",
+    "aliases": []
+  },
+  {
+    "name": "urban",
+    "description": "Description available in the bot's help command.",
+    "category": "Dictionary",
+    "type": "prefix",
+    "usage": ".urban",
+    "aliases": []
+  },
+  {
+    "name": "utils",
+    "description": "Description available in the bot's help command.",
+    "category": "Love",
+    "type": "prefix",
+    "usage": ".utils",
+    "aliases": []
+  },
+  {
+    "name": "vape",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".vape",
+    "aliases": []
+  },
+  {
+    "name": "vouch",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "prefix",
+    "usage": ".vouch",
+    "aliases": []
+  },
+  {
+    "name": "vouches",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "prefix",
+    "usage": ".vouches",
+    "aliases": []
+  },
+  {
+    "name": "warn",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".warn",
+    "aliases": []
+  },
+  {
+    "name": "warns",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".warns",
+    "aliases": []
+  },
+  {
+    "name": "warnsclearall",
+    "description": "Description available in the bot's help command.",
+    "category": "Moderation",
+    "type": "prefix",
+    "usage": ".warnsclearall",
+    "aliases": []
+  },
+  {
+    "name": "wave",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".wave",
+    "aliases": []
+  },
+  {
+    "name": "Weather",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".Weather",
+    "aliases": []
+  },
+  {
+    "name": "webhook-security",
+    "description": "Description available in the bot's help command.",
+    "category": "admin",
+    "type": "slash",
+    "usage": "/webhook-security",
+    "aliases": []
+  },
+  {
+    "name": "welcome",
+    "description": "Description available in the bot's help command.",
+    "category": "setup",
+    "type": "slash",
+    "usage": "/welcome",
+    "aliases": []
+  },
+  {
+    "name": "whitelist",
+    "description": "Description available in the bot's help command.",
+    "category": "owner",
+    "type": "slash",
+    "usage": "/whitelist",
+    "aliases": []
+  },
+  {
+    "name": "whois",
+    "description": "Description available in the bot's help command.",
+    "category": "utility",
+    "type": "prefix",
+    "usage": ".whois",
+    "aliases": []
+  },
+  {
+    "name": "word-filter",
+    "description": "Description available in the bot's help command.",
+    "category": "admin",
+    "type": "slash",
+    "usage": "/word-filter",
+    "aliases": []
+  },
+  {
+    "name": "wordgame",
+    "description": "Description available in the bot's help command.",
+    "category": "Games",
+    "type": "prefix",
+    "usage": ".wordgame",
+    "aliases": []
+  },
+  {
+    "name": "yhs",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".yhs",
+    "aliases": []
+  },
+  {
+    "name": "ylb",
+    "description": "Description available in the bot's help command.",
+    "category": "Leaderboards",
+    "type": "prefix",
+    "usage": ".ylb",
+    "aliases": []
+  },
+  {
+    "name": "yt",
+    "description": "Description available in the bot's help command.",
+    "category": "Fun",
+    "type": "prefix",
+    "usage": ".yt",
+    "aliases": []
+  }
+]
