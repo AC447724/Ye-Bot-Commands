@@ -1,1730 +1,2111 @@
 [
   {
+    "name": "addcaptures",
+    "description": "Owner only: Add many users to your captures at once",
+    "category": "Owner",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
     "name": "adopt",
-    "description": "Description available in the bot's help command.",
+    "description": "Propose to adopt someone as your child. They must accept.",
     "category": "Love",
     "type": "prefix",
-    "usage": ".adopt",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "afk",
-    "description": "Description available in the bot's help command.",
+    "description": "Set your AFK status with an optional reason.",
     "category": "utility",
     "type": "prefix",
-    "usage": ".afk",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "afk",
-    "description": "Description available in the bot's help command.",
+    "description": "Set your AFK status with an optional reason.",
     "category": "utility",
     "type": "slash",
-    "usage": "/afk",
-    "aliases": []
+    "arguments": [
+      "[reason]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "ai",
-    "description": "Description available in the bot's help command.",
+    "description": "OWNER ONLY: Configure and manage the local AI.",
     "category": "owner",
     "type": "slash",
-    "usage": "/ai",
-    "aliases": []
+    "arguments": [
+      "[on]",
+      "[off]",
+      "[learning]",
+      "[prompts]",
+      "[memory]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "all",
-    "description": "Description available in the bot's help command.",
+    "description": "Perform mass moderation actions on filtered members (OWNER ONLY)",
     "category": "owner",
     "type": "slash",
-    "usage": "/all",
-    "aliases": []
+    "arguments": [
+      "<action>",
+      "<filter>",
+      "[argument]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "ascii",
-    "description": "Description available in the bot's help command.",
+    "description": "Converts text to ASCII art.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".ascii",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "automod",
-    "description": "Description available in the bot's help command.",
+    "description": "The ultimate, professional-grade Auto-Mod system. (Admin Only)",
     "category": "automod",
     "type": "slash",
-    "usage": "/automod",
-    "aliases": []
+    "arguments": [
+      "[config]",
+      "[immunity]",
+      "[rule]",
+      "[words]",
+      "[messages]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "autoreact",
-    "description": "Description available in the bot's help command.",
+    "description": "Manage auto reactions",
     "category": "utility",
     "type": "slash",
-    "usage": "/autoreact",
-    "aliases": []
+    "arguments": [
+      "[add]",
+      "[remove]",
+      "[edit]",
+      "[list]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "autoresponder",
-    "description": "Description available in the bot's help command.",
+    "description": "Manage auto responders",
     "category": "utility",
     "type": "slash",
-    "usage": "/autoresponder",
-    "aliases": []
+    "arguments": [
+      "[add]",
+      "[remove]",
+      "[edit]",
+      "[list]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "ban",
-    "description": "Description available in the bot's help command.",
+    "description": "Ban a user from the server.",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".ban",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "bandorbx",
-    "description": "Description available in the bot's help command.",
+    "name": "bandoroblox",
+    "description": "Shows Bando's Roblox profile with a clickable link.",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".bandorbx",
-    "aliases": []
-  },
-  {
-    "name": "bbl",
-    "description": "Description available in the bot's help command.",
-    "category": "Owner",
-    "type": "prefix",
-    "usage": ".bbl",
-    "aliases": []
-  },
-  {
-    "name": "bio",
-    "description": "Description available in the bot's help command.",
-    "category": "Owner",
-    "type": "prefix",
-    "usage": ".bio",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "birthday",
-    "description": "Description available in the bot's help command.",
+    "description": "Birthday commands",
     "category": "utility",
     "type": "slash",
-    "usage": "/birthday",
-    "aliases": []
+    "arguments": [
+      "[set]",
+      "[edit]",
+      "[remove]",
+      "[calendar]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "blacklist",
-    "description": "Description available in the bot's help command.",
+    "description": "Manages the bot's user blacklist.",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".blacklist",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "blacklistcheck",
-    "description": "Description available in the bot's help command.",
+    "description": "Check if a user is blacklisted from commands.",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".blacklistcheck",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "blacklistuser",
+    "description": "Blacklist a user from using commands. Owner only.",
+    "category": "Owner",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "blinkertop",
+    "description": "Show the top blinker hit users!",
+    "category": "Fun",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "bodycount",
-    "description": "Description available in the bot's help command.",
+    "description": "Shows how many bodies (freaks) a user has and their rank.",
     "category": "Leaderboards",
     "type": "prefix",
-    "usage": ".bodycount",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "bookmarkmemory",
-    "description": "Description available in the bot's help command.",
+    "description": "Bookmark a memory by its number.",
     "category": "Memory",
     "type": "prefix",
-    "usage": ".bookmarkmemory",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "bookmarks",
-    "description": "Description available in the bot's help command.",
+    "description": "List your bookmarked memories.",
     "category": "Memory",
     "type": "prefix",
-    "usage": ".bookmarks",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "breakup",
-    "description": "Description available in the bot's help command.",
+    "description": "Break up with your current dating partner.",
     "category": "Love",
     "type": "prefix",
-    "usage": ".breakup",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "brunorbx",
-    "description": "Description available in the bot's help command.",
+    "name": "brunos-roblox",
+    "description": "Shows Bruno's Roblox profile with a clickable link.",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".brunorbx",
-    "aliases": []
-  },
-  {
-    "name": "bt",
-    "description": "Description available in the bot's help command.",
-    "category": "Fun",
-    "type": "prefix",
-    "usage": ".bt",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "buttonrole",
-    "description": "Description available in the bot's help command.",
+    "description": "Create a button role embed message with custom roles and labels.",
     "category": "utility",
     "type": "slash",
-    "usage": "/buttonrole",
-    "aliases": []
-  },
-  {
-    "name": "c",
-    "description": "Description available in the bot's help command.",
-    "category": "Fun",
-    "type": "prefix",
-    "usage": ".c",
-    "aliases": []
+    "arguments": [
+      "[create]",
+      "[edit]",
+      "[delete]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "calc",
-    "description": "Description available in the bot's help command.",
+    "description": "Evaluate a math expression.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".calc",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "capture",
-    "description": "Description available in the bot's help command.",
+    "description": "Capture a user. Use .capture @user to capture, .capture album to see your captures, .capture history to see all recent captures.",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".capture",
-    "aliases": []
-  },
-  {
-    "name": "captureset",
-    "description": "Description available in the bot's help command.",
-    "category": "Owner",
-    "type": "prefix",
-    "usage": ".captureset",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "cashapp",
-    "description": "Description available in the bot's help command.",
+    "description": "Looks up a Cash App $Cashtag to verify its existence.",
     "category": "utility",
     "type": "prefix",
-    "usage": ".cashapp",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "cat",
-    "description": "Description available in the bot's help command.",
+    "description": "Sends a random cat picture.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".cat",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "cclean",
+    "description": "Deletes messages in the current channel that contain cuss words or slurs.",
+    "category": "Moderation",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "checkmember",
+    "description": "Checks if a user is in the current guild or a specified guild.",
+    "category": "BetaCMDs",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "chess",
-    "description": "Description available in the bot's help command.",
+    "description": "⚠️ Error: Cannot find module 'chess.js'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\Fun\\chess.js\n- C:\\s25\\lustsrc0\\getc.js",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".chess",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": true
   },
   {
-    "name": "clearcuss",
-    "description": "Description available in the bot's help command.",
+    "name": "clearmessages",
+    "description": "Delete every message from the specified user across this server.",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".clearcuss",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "clearwarns",
-    "description": "Description available in the bot's help command.",
+    "name": "clearsnipe",
+    "description": "Clears all sniped messages in the current channel",
+    "category": "Fun",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "clearwarn",
+    "description": "Clear a specific warning for a user",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".clearwarns",
-    "aliases": []
-  },
-  {
-    "name": "cm",
-    "description": "Description available in the bot's help command.",
-    "category": "BetaCMDs",
-    "type": "prefix",
-    "usage": ".cm",
-    "aliases": []
-  },
-  {
-    "name": "cmu",
-    "description": "Description available in the bot's help command.",
-    "category": "Moderation",
-    "type": "prefix",
-    "usage": ".cmu",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "compliment",
-    "description": "Description available in the bot's help command.",
+    "description": "Sends a random compliment to a user.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".compliment",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "contact",
-    "description": "Description available in the bot's help command.",
+    "description": "Interactively DM a guild owner",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".contact",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "copy",
-    "description": "Description available in the bot's help command.",
+    "description": "Backup a user's nickname and roles for later restore (use .restoreroles and .restorenick to restore)",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".copy",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "cquote",
-    "description": "Description available in the bot's help command.",
+    "description": "Create a quote from a message or reply to a message.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".cquote",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "crypto",
-    "description": "Description available in the bot's help command.",
+    "description": "Fetches the current price and market data for a cryptocurrency.",
     "category": "utility",
     "type": "prefix",
-    "usage": ".crypto",
-    "aliases": []
-  },
-  {
-    "name": "cs",
-    "description": "Description available in the bot's help command.",
-    "category": "Fun",
-    "type": "prefix",
-    "usage": ".cs",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "cuddle",
-    "description": "Description available in the bot's help command.",
+    "description": "Cuddle someone! (wholesome)",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".cuddle",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "dailyquote",
+    "description": "Manage automated daily quotes for this server.",
+    "category": "daily",
+    "type": "slash",
+    "arguments": [
+      "[set]",
+      "[view]",
+      "[stop]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "date",
-    "description": "Description available in the bot's help command.",
+    "description": "Start dating someone (they need to accept).",
     "category": "Love",
     "type": "prefix",
-    "usage": ".date",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "define",
-    "description": "Description available in the bot's help command.",
+    "description": "Looks up a word in the dictionary.",
     "category": "Dictionary",
     "type": "prefix",
-    "usage": ".define",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "deletememory",
-    "description": "Description available in the bot's help command.",
+    "description": "Delete a memory by its number (from .memories).",
     "category": "Memory",
     "type": "prefix",
-    "usage": ".deletememory",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "disown",
-    "description": "Description available in the bot's help command.",
+    "description": "Disown one of your children (with confirmation).",
     "category": "Love",
     "type": "prefix",
-    "usage": ".disown",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "divorce",
-    "description": "Description available in the bot's help command.",
+    "description": "End your current relationship (works for dating or marriage).",
     "category": "Love",
     "type": "prefix",
-    "usage": ".divorce",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "dm",
-    "description": "Description available in the bot's help command.",
+    "description": "Send a DM to a user via the bot (plain or embed) with options (owner only).",
     "category": "fun",
     "type": "slash",
-    "usage": "/dm",
-    "aliases": []
+    "arguments": [
+      "<target>",
+      "<type>",
+      "<message>",
+      "[title]",
+      "[color]",
+      "[footer]",
+      "[timestamp]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "dmall",
-    "description": "Description available in the bot's help command.",
+    "description": "DMs everyone in the server (owner only, with confirmation, progress, and logging)",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".dmall",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "dog",
-    "description": "Description available in the bot's help command.",
+    "description": "Sends a random dog picture.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".dog",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "embed",
-    "description": "Description available in the bot's help command.",
+    "description": "A powerful tool to create, save, edit, and send custom embeds.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".embed",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "embed",
-    "description": "Description available in the bot's help command.",
+    "description": "Create, view, edit, list, delete, and send custom embeds!",
     "category": "utility",
     "type": "slash",
-    "usage": "/embed",
-    "aliases": []
+    "arguments": [
+      "[create]",
+      "[view]",
+      "[list]",
+      "[delete]",
+      "[send]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "es",
-    "description": "Description available in the bot's help command.",
+    "name": "enslave",
+    "description": "Creates or re‑uses \"<Owner> Slave\" role, assigns it, and locks nickname.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".es",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "eval",
-    "description": "Description available in the bot's help command.",
+    "description": "OWNER ONLY: Executes raw JavaScript code with maximum power.",
     "category": "owner",
     "type": "slash",
-    "usage": "/eval",
-    "aliases": []
+    "arguments": [
+      "[code]",
+      "[depth]",
+      "[ephemeral]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "evalv2",
-    "description": "Description available in the bot's help command.",
+    "description": "OWNER ONLY: The ultimate remote toolkit.",
     "category": "owner",
     "type": "slash",
-    "usage": "/evalv2",
-    "aliases": []
+    "arguments": [
+      "[run]",
+      "[sh]",
+      "[repeat]",
+      "[file]",
+      "[snippets]",
+      "[process]",
+      "[env]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "exchange",
-    "description": "Description available in the bot's help command.",
+    "description": "Converts an amount from one currency to another using live rates.",
     "category": "utility",
     "type": "prefix",
-    "usage": ".exchange",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "exportmemories",
-    "description": "Description available in the bot's help command.",
+    "description": "Export all your memories as a text file.",
     "category": "Memory",
     "type": "prefix",
-    "usage": ".exportmemories",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "fact",
-    "description": "Description available in the bot's help command.",
+    "description": "Sends a random fun fact from an API.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".fact",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "fakedm",
-    "description": "Description available in the bot's help command.",
+    "description": "Generates a fake DM image from a user.",
     "category": "admin",
     "type": "slash",
-    "usage": "/fakedm",
-    "aliases": []
+    "arguments": [
+      "<user>",
+      "<message>"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "Family",
-    "description": "Description available in the bot's help command.",
+    "name": "family",
+    "description": "Displays a modern, detailed profile of your family.",
     "category": "Love",
     "type": "prefix",
-    "usage": ".Family",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "fbodies",
-    "description": "Description available in the bot's help command.",
+    "description": "Shows how many freaky encounters a user has had.",
     "category": "Leaderboards",
     "type": "prefix",
-    "usage": ".fbodies",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "fetchip",
+    "description": "Admin only: Retrieve the IP address of a user (simulated).",
+    "category": "Owner",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "fight",
-    "description": "Description available in the bot's help command.",
+    "description": "⚠️ Error: Cannot find module '../../../utils/actionGifs'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\Fun\\fight.js\n- C:\\s25\\lustsrc0\\getc.js",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".fight",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": true
   },
   {
-    "name": "find",
-    "description": "Description available in the bot's help command.",
+    "name": "find-id",
+    "description": "Finds the Genius.com artist ID for a given artist name.",
     "category": "kanye",
     "type": "prefix",
-    "usage": ".find",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "findsong",
-    "description": "Description available in the bot's help command.",
+    "description": "Finds a song using the Genius API and displays its information.",
     "category": "kanye",
     "type": "prefix",
-    "usage": ".findsong",
-    "aliases": []
-  },
-  {
-    "name": "fip",
-    "description": "Description available in the bot's help command.",
-    "category": "Owner",
-    "type": "prefix",
-    "usage": ".fip",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "firstmessage",
-    "description": "Description available in the bot's help command.",
+    "description": "Shows the first message sent in this channel.",
     "category": "BetaCMDs",
     "type": "prefix",
-    "usage": ".firstmessage",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "flb",
-    "description": "Description available in the bot's help command.",
+    "description": "Displays the top freaky users by successful encounters.",
     "category": "Leaderboards",
     "type": "prefix",
-    "usage": ".flb",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "fn",
-    "description": "Description available in the bot's help command.",
+    "description": "Force a nickname on a user",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".fn",
-    "aliases": []
-  },
-  {
-    "name": "fo",
-    "description": "Description available in the bot's help command.",
-    "category": "Games",
-    "type": "prefix",
-    "usage": ".fo",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "forcepair",
-    "description": "Description available in the bot's help command.",
+    "description": "OWNER ONLY: Forcibly sets one user as the parent of another un-familied user.",
     "category": "Love",
     "type": "prefix",
-    "usage": ".forcepair",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "ft",
-    "description": "Description available in the bot's help command.",
+    "name": "freakoff",
+    "description": "Start a freak-off battle between two users!",
+    "category": "Games",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "freaktop",
+    "description": "View the leaderboard of freak-off wins!",
     "category": "Leaderboards",
     "type": "prefix",
-    "usage": ".ft",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "fulltree",
-    "description": "Description available in the bot's help command.",
+    "description": "OWNER ONLY: Displays all distinct family trees on the server.",
     "category": "Love",
     "type": "prefix",
-    "usage": ".fulltree",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "game",
-    "description": "Description available in the bot's help command.",
+    "description": "Searches for a video game and displays its details.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".game",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "gangsta",
-    "description": "Description available in the bot's help command.",
+    "description": "Rewrites your text with some unfiltered modern flavor.",
     "category": "kanye",
     "type": "prefix",
-    "usage": ".gangsta",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "gayrate",
-    "description": "Description available in the bot's help command.",
+    "description": "Rate how gay someone is",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".gayrate",
-    "aliases": []
-  },
-  {
-    "name": "gdm",
-    "description": "Description available in the bot's help command.",
-    "category": "owner",
-    "type": "slash",
-    "usage": "/gdm",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "generatepassword",
-    "description": "Description available in the bot's help command.",
+    "description": "Generates a secure random password with easy options.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".generatepassword",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "gif",
-    "description": "Description available in the bot's help command.",
+    "description": "Searches for a GIF with interactive buttons.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".gif",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "giveaway",
-    "description": "Description available in the bot's help command.",
+    "description": "A full giveaway system.",
     "category": "giveaway",
     "type": "slash",
-    "usage": "/giveaway",
-    "aliases": []
+    "arguments": [
+      "[start]",
+      "[reroll]",
+      "[end]",
+      "[pause]",
+      "[resume]",
+      "[list]"
+    ],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "globaldm",
+    "description": "Send a global DM to all server owners or members.",
+    "category": "owner",
+    "type": "slash",
+    "arguments": [
+      "[owners]",
+      "[members]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "globaltouchleaderboard",
-    "description": "Description available in the bot's help command.",
+    "description": "See who has touched others the most globally.",
     "category": "Leaderboards",
     "type": "prefix",
-    "usage": ".globaltouchleaderboard",
-    "aliases": []
-  },
-  {
-    "name": "gm",
-    "description": "Description available in the bot's help command.",
-    "category": "BetaCMDs",
-    "type": "prefix",
-    "usage": ".gm",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "grabbreast",
-    "description": "Description available in the bot's help command.",
+    "description": "Grab someone by the breast! (playful)",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".grabbreast",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "grabmessages",
+    "description": "Fetches messages from a specific channel in any server and DMs them to you. (Owner Only)",
+    "category": "BetaCMDs",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "grabwaist",
-    "description": "Description available in the bot's help command.",
+    "description": "Grab someone by the waist! (playful)",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".grabwaist",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "hangman",
-    "description": "Description available in the bot's help command.",
+    "description": "Play a game of Hangman with a stickman drawing!",
     "category": "Games",
     "type": "prefix",
-    "usage": ".hangman",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "hangstop",
-    "description": "Description available in the bot's help command.",
+    "description": "Stop your current Hangman game.",
     "category": "Games",
     "type": "prefix",
-    "usage": ".hangstop",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "haunt",
-    "description": "Description available in the bot's help command.",
+    "description": "OWNER ONLY: Makes the bot auto-respond to a specific user.",
     "category": "owner",
     "type": "slash",
-    "usage": "/haunt",
-    "aliases": []
-  },
-  {
-    "name": "hb",
-    "description": "Description available in the bot's help command.",
-    "category": "Fun",
-    "type": "prefix",
-    "usage": ".hb",
-    "aliases": []
+    "arguments": [
+      "[set]",
+      "[remove]",
+      "[list]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "hide",
-    "description": "Description available in the bot's help command.",
+    "description": "Hides a channel from @everyone",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".hide",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "hitblinker",
+    "description": "Hit a blinker!",
+    "category": "Fun",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "hityart",
-    "description": "Description available in the bot's help command.",
+    "description": "Hit the yart! Use subcommands `top` or `stats [user]`.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".hityart",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "impersonate",
-    "description": "Description available in the bot's help command.",
+    "description": "Send a message as another user using a webhook.",
     "category": "fun",
     "type": "slash",
-    "usage": "/impersonate",
-    "aliases": []
+    "arguments": [
+      "<user>",
+      "<message>",
+      "[image]",
+      "[tts]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "invites",
-    "description": "Description available in the bot's help command.",
+    "description": "⚠️ Error: ENOENT: no such file or directory, open 'C:\\s25\\data\\invite_history.json'",
     "category": "utility",
     "type": "prefix",
-    "usage": ".invites",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": true
   },
   {
     "name": "invites",
-    "description": "Description available in the bot's help command.",
+    "description": "Show a user's invite stats (joins, leaves, fake, etc).",
     "category": "utility",
     "type": "slash",
-    "usage": "/invites",
-    "aliases": []
+    "arguments": [
+      "[user]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "ip",
-    "description": "Description available in the bot's help command.",
+    "description": "OWNER ONLY: Performs an extensive lookup with VPN/Proxy detection.",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".ip",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "iplookup",
-    "description": "Description available in the bot's help command.",
+    "description": "Look up information about an IP address.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".iplookup",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "jbsrbx",
-    "description": "Description available in the bot's help command.",
+    "name": "jb5007s-roblox",
+    "description": "Shows Jb5007's Roblox profile with a clickable link.",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".jbsrbx",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "kanye",
-    "description": "Description available in the bot's help command.",
+    "description": "Gets a random quote from Kanye West.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".kanye",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "kanye",
-    "description": "Description available in the bot's help command.",
+    "description": "Gets a random quote from Kanye West.",
     "category": "fun",
     "type": "slash",
-    "usage": "/kanye",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "kanye-song",
+    "description": "Searches for a Kanye West or Ye song and displays its details.",
+    "category": "kanye",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "kanyesong",
-    "description": "Description available in the bot's help command.",
+    "description": "Gets a random Kanye West song from the Genius API.",
     "category": "kanye",
     "type": "prefix",
-    "usage": ".kanyesong",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "kfurbx",
-    "description": "Description available in the bot's help command.",
+    "name": "kfu-roblox",
+    "description": "Shows kfu's Roblox profile with a clickable link.",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".kfurbx",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "kick",
-    "description": "Description available in the bot's help command.",
+    "description": "Kick a user from the server.",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".kick",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "kiss",
-    "description": "Description available in the bot's help command.",
+    "description": "Give someone a little kiss!",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".kiss",
-    "aliases": []
-  },
-  {
-    "name": "ldm",
-    "description": "Description available in the bot's help command.",
-    "category": "Bad",
-    "type": "prefix",
-    "usage": ".ldm",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "leave",
-    "description": "Description available in the bot's help command.",
+    "description": "Configure the server's leave messages.",
     "category": "setup",
     "type": "slash",
-    "usage": "/leave",
-    "aliases": []
+    "arguments": [
+      "[set]",
+      "[disable]",
+      "[test]",
+      "[status]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "lesbianrate",
-    "description": "Description available in the bot's help command.",
+    "description": "Rate how lesbian someone is",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".lesbianrate",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "lick",
-    "description": "Description available in the bot's help command.",
+    "description": "⚠️ Error: Cannot find module '../../../utils/actionGifs'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\Fun\\lick.js\n- C:\\s25\\lustsrc0\\getc.js",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".lick",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": true
   },
   {
     "name": "listfn",
-    "description": "Description available in the bot's help command.",
+    "description": "List all users with forced nicknames",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".listfn",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "lock",
-    "description": "Description available in the bot's help command.",
+    "description": "Locks a channel (disables @everyone from sending messages)",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".lock",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "logs",
-    "description": "Description available in the bot's help command.",
+    "description": "Search the server's message and audit database.",
     "category": "utility",
     "type": "slash",
-    "usage": "/logs",
-    "aliases": []
+    "arguments": [
+      "[messages]",
+      "[audit]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "lp",
-    "description": "Description available in the bot's help command.",
+    "name": "loopdm",
+    "description": "Repeatedly DM a user with a message at a set interval (Admin only)",
     "category": "Bad",
     "type": "prefix",
-    "usage": ".lp",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "loopping",
+    "description": "Ping someone at a custom interval (ms). Requires Administrator permission.",
+    "category": "Bad",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "lyrics",
-    "description": "Description available in the bot's help command.",
+    "description": "Fetches lyrics for a song using some-random-api.com. Usage: lyrics <song name>",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".lyrics",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "mac",
-    "description": "Description available in the bot's help command.",
+    "description": "OWNER ONLY: Performs an extensive lookup on a MAC address.",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".mac",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "macadd",
-    "description": "Description available in the bot's help command.",
+    "name": "maclookup",
+    "description": "Look up information about a MAC address.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".macadd",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "Maintenance ",
-    "description": "Description available in the bot's help command.",
+    "name": "maintenance",
+    "description": "Toggle bot maintenance mode (owner only).",
     "category": "owner",
     "type": "slash",
-    "usage": "/Maintenance ",
-    "aliases": []
+    "arguments": [
+      "[message]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "marry",
-    "description": "Description available in the bot's help command.",
+    "description": "Propose marriage to your current dating partner.",
     "category": "Love",
     "type": "prefix",
-    "usage": ".marry",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "math",
-    "description": "Description available in the bot's help command.",
+    "description": "Solve math expressions, equations, and advanced problems like calculus, trigonometry, and more",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".math",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "meme",
-    "description": "Description available in the bot's help command.",
+    "description": "Fetches a random meme, optionally from a specific subreddit.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".meme",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "memories",
-    "description": "Description available in the bot's help command.",
+    "description": "View your book of memories.",
     "category": "Memory",
     "type": "prefix",
-    "usage": ".memories",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "memory",
-    "description": "Description available in the bot's help command.",
+    "description": "Save the message you replied to as a memory.",
     "category": "Memory",
     "type": "prefix",
-    "usage": ".memory",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "memoryinfo",
-    "description": "Description available in the bot's help command.",
+    "description": "Show detailed info about a specific memory.",
     "category": "Memory",
     "type": "prefix",
-    "usage": ".memoryinfo",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "mock",
-    "description": "Description available in the bot's help command.",
+    "description": "Converts your text to sPoNgEbOb mOcK tExT.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".mock",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "msm",
-    "description": "Description available in the bot's help command.",
+    "description": "Shows moderation stats for a mod.",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".msm",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "music",
-    "description": "Description available in the bot's help command.",
+    "description": "Music player with queue, pause, resume, skip, and more!",
     "category": "music",
     "type": "slash",
-    "usage": "/music",
-    "aliases": []
+    "arguments": [
+      "[playfile]",
+      "[pause]",
+      "[resume]",
+      "[skip]",
+      "[stop]",
+      "[queue]",
+      "[bassboost]",
+      "[volume]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "muteunmute",
-    "description": "Description available in the bot's help command.",
-    "category": "Moderation",
-    "type": "prefix",
-    "usage": ".muteunmute",
-    "aliases": []
-  },
-  {
-    "name": "nh",
-    "description": "Description available in the bot's help command.",
+    "name": "nekohelp",
+    "description": "Displays a list of available commands or info about a specific command.",
     "category": "owner",
     "type": "slash",
-    "usage": "/nh",
-    "aliases": []
+    "arguments": [
+      "[command]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "nickname",
-    "description": "Description available in the bot's help command.",
+    "description": "Change a user's nickname.",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".nickname",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "owoify",
-    "description": "Description available in the bot's help command.",
+    "description": "Turns your text into owo speak.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".owoify",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "passwordstrength",
-    "description": "Description available in the bot's help command.",
+    "description": "Determines the strength and weaknesses of a given password.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".passwordstrength",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "passwordstrength",
-    "description": "Description available in the bot's help command.",
+    "description": "Check the strength of a password using a secure modal input.",
     "category": "fun",
     "type": "slash",
-    "usage": "/passwordstrength",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "pat",
-    "description": "Description available in the bot's help command.",
+    "description": "⚠️ Error: Cannot find module '../../../utils/actionGifs'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\Fun\\pat.js\n- C:\\s25\\lustsrc0\\getc.js",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".pat",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": true
   },
   {
     "name": "poke",
-    "description": "Description available in the bot's help command.",
+    "description": "Poke someone! (playful)",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".poke",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "profile",
+    "description": "Displays a link to your or another user's profile page.",
+    "category": "Owner",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "profile-edit",
-    "description": "Description available in the bot's help command.",
+    "description": "Edits your personal profile page.",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".profile-edit",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "progenitor",
-    "description": "Description available in the bot's help command.",
+    "description": "OWNER ONLY: Makes a user the ultimate ancestor of all families.",
     "category": "Love",
     "type": "prefix",
-    "usage": ".progenitor",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "punc",
-    "description": "Description available in the bot's help command.",
+    "description": "⚠️ Error: Cannot find module '../../../utils/actionGifs'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\Fun\\punc.js\n- C:\\s25\\lustsrc0\\getc.js",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".punc",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": true
   },
   {
     "name": "purge",
-    "description": "Description available in the bot's help command.",
+    "description": "Deletes messages from a channel with advanced filtering options.",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".purge",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "qr",
-    "description": "Description available in the bot's help command.",
+    "description": "Generates a QR code for any text or link.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".qr",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "quote",
-    "description": "Description available in the bot's help command.",
+    "description": "Get a random motivational quote",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".quote",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "randmemory",
-    "description": "Description available in the bot's help command.",
+    "description": "Show a random memory from your book.",
     "category": "Memory",
     "type": "prefix",
-    "usage": ".randmemory",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "rate",
-    "description": "Description available in the bot's help command.",
+    "description": "Rate a user or anything with a dynamically generated image.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".rate",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "refreshcommands",
-    "description": "Description available in the bot's help command.",
+    "name": "rblx",
+    "description": "Fetches comprehensive information about Roblox users.",
+    "category": "Fun",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "refreshprefixcommands",
+    "description": "Reloads all prefix commands (owner only)",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".refreshcommands",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "release",
-    "description": "Description available in the bot's help command.",
+    "description": "Releases a slave: removes the role and unlocks nickname.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".release",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "remindme",
-    "description": "Description available in the bot's help command.",
+    "description": "Sets a personal reminder.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".remindme",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "remixavatar",
-    "description": "Description available in the bot's help command.",
+    "description": "Randomly distorts or applies a filter to a user’s avatar and sends it.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".remixavatar",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "restorenick",
-    "description": "Description available in the bot's help command.",
+    "description": "Restore a user's nickname from backup",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".restorenick",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "restoreroles",
-    "description": "Description available in the bot's help command.",
+    "description": "Restore a user's roles from backup",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".restoreroles",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "retire",
-    "description": "Description available in the bot's help command.",
+    "description": "Remove all staff roles from yourself (as set by retireset)",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".retire",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "retire",
-    "description": "Description available in the bot's help command.",
+    "description": "Remove all staff roles from yourself (as set by /retireset)",
     "category": "setup",
     "type": "slash",
-    "usage": "/retire",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "retireset",
-    "description": "Description available in the bot's help command.",
+    "description": "Set staff roles that can be removed with the retire command (admin only)",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".retireset",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "retireset",
-    "description": "Description available in the bot's help command.",
+    "description": "Set staff roles that can be removed with /retire",
     "category": "setup",
     "type": "slash",
-    "usage": "/retireset",
-    "aliases": []
-  },
-  {
-    "name": "roblox",
-    "description": "Description available in the bot's help command.",
-    "category": "Fun",
-    "type": "prefix",
-    "usage": ".roblox",
-    "aliases": []
+    "arguments": [
+      "<role1>",
+      "[role2]",
+      "[role3]",
+      "[role4]",
+      "[role5]",
+      "[role6]",
+      "[role7]",
+      "[role8]",
+      "[role9]",
+      "[role10]",
+      "[role11]",
+      "[role12]",
+      "[role13]",
+      "[role14]",
+      "[role15]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "role",
-    "description": "Description available in the bot's help command.",
+    "description": "The ultimate tool for role management.",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".role",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "runaway",
-    "description": "Description available in the bot's help command.",
+    "description": "Run away from your adoptive family.",
     "category": "Love",
     "type": "prefix",
-    "usage": ".runaway",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "say",
-    "description": "Description available in the bot's help command.",
+    "description": "Have the bot say something or send an uploaded file in the current channel.",
     "category": "fun",
     "type": "slash",
-    "usage": "/say",
-    "aliases": []
-  },
-  {
-    "name": "sb",
-    "description": "Description available in the bot's help command.",
-    "category": "Fun",
-    "type": "prefix",
-    "usage": ".sb",
-    "aliases": []
+    "arguments": [
+      "[message]",
+      "[file_to_send]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "scramble",
-    "description": "Description available in the bot's help command.",
+    "description": "Unscramble the word within 10 seconds! Usage: !scramble [easy|medium|hard]",
     "category": "Games",
     "type": "prefix",
-    "usage": ".scramble",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "searchmemories",
-    "description": "Description available in the bot's help command.",
+    "description": "Search your memories for a keyword.",
     "category": "Memory",
     "type": "prefix",
-    "usage": ".searchmemories",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "serversi",
-    "description": "Description available in the bot's help command.",
+    "description": "DM the owner an interactive, paginated server list with invites.",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".serversi",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "serverstats",
-    "description": "Description available in the bot's help command.",
+    "description": "Manage automated server statistic channels.",
     "category": "setup",
     "type": "slash",
-    "usage": "/serverstats",
-    "aliases": []
+    "arguments": [
+      "[set-member-counter]",
+      "[disable-member-counter]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "setbanner",
-    "description": "Description available in the bot's help command.",
+    "description": "Set the bot's profile banner (owner only)",
     "category": "owner",
     "type": "slash",
-    "usage": "/setbanner",
-    "aliases": []
+    "arguments": [
+      "<image>"
+    ],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "setblinker",
+    "description": "Set a user's blinker hit count (admin only)",
+    "category": "Fun",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "setbody",
-    "description": "Description available in the bot's help command.",
+    "description": "Set the freak body count for a user.",
     "category": "Games",
     "type": "prefix",
-    "usage": ".setbody",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "setfreakwins",
+    "description": "Set a user’s freak-off win count (admin only).",
+    "category": "Games",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "setpfp",
-    "description": "Description available in the bot's help command.",
+    "description": "Set the bot's profile picture (owner only)",
     "category": "owner",
     "type": "slash",
-    "usage": "/setpfp",
-    "aliases": []
+    "arguments": [
+      "<image>"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "setprefix",
-    "description": "Description available in the bot's help command.",
+    "description": "Set a custom prefix for this server.",
     "category": "setup",
     "type": "slash",
-    "usage": "/setprefix",
-    "aliases": []
+    "arguments": [
+      "<prefix>"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "settouch",
-    "description": "Description available in the bot's help command.",
+    "description": "Set how many times a user has touched someone.",
     "category": "Games",
     "type": "prefix",
-    "usage": ".settouch",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "sfw",
-    "description": "Description available in the bot's help command.",
-    "category": "Games",
+    "name": "setyart",
+    "description": "Set a user's yart hit count (admin only)",
+    "category": "Fun",
     "type": "prefix",
-    "usage": ".sfw",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "sharememory",
-    "description": "Description available in the bot's help command.",
+    "description": "Share a memory with a user or channel.",
     "category": "Memory",
     "type": "prefix",
-    "usage": ".sharememory",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "ship",
-    "description": "Description available in the bot's help command.",
+    "description": "Ships two users together with a custom-generated image.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".ship",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "ship",
-    "description": "Description available in the bot's help command.",
+    "description": "Ships two users together and gives a love percentage with a funny description.",
     "category": "fun",
     "type": "slash",
-    "usage": "/ship",
-    "aliases": []
+    "arguments": [
+      "<user1>",
+      "<user2>"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "shorten",
-    "description": "Description available in the bot's help command.",
+    "description": "Shorten a URL using is.gd",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".shorten",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "shutdown",
-    "description": "Description available in the bot's help command.",
+    "description": "Shuts down the bot (owner only)",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".shutdown",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "slap",
-    "description": "Description available in the bot's help command.",
+    "description": "⚠️ Error: Cannot find module '../../../utils/actionGifs'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\Fun\\slap.js\n- C:\\s25\\lustsrc0\\getc.js",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".slap",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": true
   },
   {
     "name": "slaves",
-    "description": "Description available in the bot's help command.",
+    "description": "Lists every member that carries your “<Owner> Slave” role.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".slaves",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "slowmode",
-    "description": "Description available in the bot's help command.",
+    "description": "Sets the slowmode for a channel. Supports s/m/h/d (seconds/minutes/hours/days)",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".slowmode",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "snipe",
-    "description": "Description available in the bot's help command.",
+    "description": "Shows the last deleted messages in this channel with navigation.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".snipe",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "softban",
-    "description": "Description available in the bot's help command.",
+    "description": "Ban then unban a user to delete their recent messages.",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".softban",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "songk",
-    "description": "Description available in the bot's help command.",
-    "category": "kanye",
+    "name": "spinwheel",
+    "description": "Spin the wheel with a list of users or names!",
+    "category": "Games",
     "type": "prefix",
-    "usage": ".songk",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "sqr",
-    "description": "Description available in the bot's help command.",
+    "description": "Displays information about the bot's SQLite database. (Owner only)",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".sqr",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "ss",
-    "description": "Description available in the bot's help command.",
+    "description": "⚠️ Error: Cannot find module 'puppeteer'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\utility\\ss.js\n- C:\\s25\\lustsrc0\\getc.js",
     "category": "utility",
     "type": "prefix",
-    "usage": ".ss",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": true
   },
   {
     "name": "steal",
-    "description": "Description available in the bot's help command.",
+    "description": "Steals custom emojis and stickers and adds them to this server.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".steal",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "sticky",
-    "description": "Description available in the bot's help command.",
+    "description": "Manage advanced sticky messages for a channel. (Admin Only)",
     "category": "utility",
     "type": "slash",
-    "usage": "/sticky",
-    "aliases": []
-  },
-  {
-    "name": "sw",
-    "description": "Description available in the bot's help command.",
-    "category": "Games",
-    "type": "prefix",
-    "usage": ".sw",
-    "aliases": []
-  },
-  {
-    "name": "t",
-    "description": "Description available in the bot's help command.",
-    "category": "daily",
-    "type": "slash",
-    "usage": "/t",
-    "aliases": []
+    "arguments": [
+      "[set]",
+      "[remove]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "tempban",
-    "description": "Description available in the bot's help command.",
+    "description": "Temporarily ban a user for a specified time.",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".tempban",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "timeout",
-    "description": "Description available in the bot's help command.",
+    "description": "Timeout a user for a specific duration.",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".timeout",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "timezone",
-    "description": "Description available in the bot's help command.",
+    "description": "Shows the current time in a given city or country.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".timezone",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "touchedby",
-    "description": "Description available in the bot's help command.",
+    "description": "See who has touched you the most.",
     "category": "Leaderboards",
     "type": "prefix",
-    "usage": ".touchedby",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "touchleaderboard",
-    "description": "Description available in the bot's help command.",
+    "description": "See who you (or someone else) have touched the most.",
     "category": "Leaderboards",
     "type": "prefix",
-    "usage": ".touchleaderboard",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "translate",
-    "description": "Description available in the bot's help command.",
+    "description": "Translates text. If no language code is given, it translates to English automatically.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".translate",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "tree",
-    "description": "Description available in the bot's help command.",
+    "description": "Displays a family tree. Use 'image' for a visual graph.",
     "category": "Love",
     "type": "prefix",
-    "usage": ".tree",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "ttsfile",
-    "description": "Description available in the bot's help command.",
+    "name": "tts",
+    "description": "Generates a TTS audio file from text and sends it in the channel.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".ttsfile",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "tweet",
-    "description": "Description available in the bot's help command.",
+    "description": "Generates a fake Kanye West tweet with a random quote.",
     "category": "kanye",
     "type": "prefix",
-    "usage": ".tweet",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "tweet-goodno",
-    "description": "Description available in the bot's help command.",
+    "name": "tweet-bad",
+    "description": "Generates a fake tweet of one of Kanye's positive or inspirational quotes.",
     "category": "kanye",
     "type": "prefix",
-    "usage": ".tweet-goodno",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "type",
-    "description": "Description available in the bot's help command.",
+    "description": "Type the given sentence as fast as possible!",
     "category": "Games",
     "type": "prefix",
-    "usage": ".type",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "unban",
-    "description": "Description available in the bot's help command.",
+    "description": "Unban a user from the server.",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".unban",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "unblacklist",
-    "description": "Description available in the bot's help command.",
+    "name": "unblacklistuser",
+    "description": "Remove a user from the command blacklist. Owner only.",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".unblacklist",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "unfn",
-    "description": "Description available in the bot's help command.",
+    "description": "Remove a forced nickname from a user",
     "category": "Owner",
     "type": "prefix",
-    "usage": ".unfn",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "unhide",
-    "description": "Description available in the bot's help command.",
+    "description": "Unhides a channel for @everyone",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".unhide",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "unlock",
-    "description": "Description available in the bot's help command.",
+    "description": "Unlocks a channel (allows @everyone to send messages)",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".unlock",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "unmute",
+    "description": "Unmute a user in the server.",
+    "category": "Moderation",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "unrole",
-    "description": "Description available in the bot's help command.",
+    "description": "Removes a role from a user",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".unrole",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "untime",
-    "description": "Description available in the bot's help command.",
+    "name": "untimeout",
+    "description": "Removes a timeout from a user.",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".untime",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "urban",
-    "description": "Description available in the bot's help command.",
+    "description": "Looks up a word on Urban Dictionary.",
     "category": "Dictionary",
     "type": "prefix",
-    "usage": ".urban",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "utils",
-    "description": "Description available in the bot's help command.",
+    "description": "⚠️ Error: File is not a valid command structure.",
     "category": "Love",
     "type": "prefix",
-    "usage": ".utils",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": true
   },
   {
     "name": "vape",
-    "description": "Description available in the bot's help command.",
+    "description": "Takes a hit from a virtual vape using a dynamic GIF from Tenor.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".vape",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "vouch",
-    "description": "Description available in the bot's help command.",
+    "description": "Give a vouch to a user to build their reputation.",
     "category": "utility",
     "type": "prefix",
-    "usage": ".vouch",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "vouches",
-    "description": "Description available in the bot's help command.",
+    "description": "Displays a user's vouch history.",
     "category": "utility",
     "type": "prefix",
-    "usage": ".vouches",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "warn",
-    "description": "Description available in the bot's help command.",
+    "description": "Warn a user",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".warn",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "warns",
-    "description": "Description available in the bot's help command.",
+    "description": "View the warnings of a user",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".warns",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "warnsclearall",
-    "description": "Description available in the bot's help command.",
+    "description": "Clear all warnings of a user",
     "category": "Moderation",
     "type": "prefix",
-    "usage": ".warnsclearall",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "wave",
-    "description": "Description available in the bot's help command.",
+    "description": "⚠️ Error: Cannot find module '../../../utils/actionGifs'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\Fun\\wave.js\n- C:\\s25\\lustsrc0\\getc.js",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".wave",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": true
   },
   {
-    "name": "Weather",
-    "description": "Description available in the bot's help command.",
+    "name": "weather",
+    "description": "Provides detailed weather information for any location.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".Weather",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "webhook-security",
-    "description": "Description available in the bot's help command.",
+    "description": "Manage server webhooks (bot owner or server owner only).",
     "category": "admin",
     "type": "slash",
-    "usage": "/webhook-security",
-    "aliases": []
+    "arguments": [
+      "[create]",
+      "[delete]",
+      "[list]",
+      "[config]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "welcome",
-    "description": "Description available in the bot's help command.",
+    "description": "Configure the server's welcome messages.",
     "category": "setup",
     "type": "slash",
-    "usage": "/welcome",
-    "aliases": []
+    "arguments": [
+      "[set]",
+      "[disable]",
+      "[test]",
+      "[status]"
+    ],
+    "permissions": [],
+    "load_error": false
+  },
+  {
+    "name": "whatscold",
+    "description": "tells u what cold is",
+    "category": "Fun",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "whitelist",
-    "description": "Description available in the bot's help command.",
+    "description": "Manage the impersonate command whitelist (owner only).",
     "category": "owner",
     "type": "slash",
-    "usage": "/whitelist",
-    "aliases": []
+    "arguments": [
+      "[add]",
+      "[remove]",
+      "[list]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "whois",
-    "description": "Description available in the bot's help command.",
+    "description": "OWNER ONLY: Looks up public registration information for a domain.",
     "category": "utility",
     "type": "prefix",
-    "usage": ".whois",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "word-filter",
-    "description": "Description available in the bot's help command.",
+    "description": "Configure the word filter system for this server.",
     "category": "admin",
     "type": "slash",
-    "usage": "/word-filter",
-    "aliases": []
+    "arguments": [
+      "[config]",
+      "[words]",
+      "[bypass]",
+      "[view]"
+    ],
+    "permissions": [],
+    "load_error": false
   },
   {
     "name": "wordgame",
-    "description": "Description available in the bot's help command.",
+    "description": "Start a word challenge game!",
     "category": "Games",
     "type": "prefix",
-    "usage": ".wordgame",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "yhs",
-    "description": "Description available in the bot's help command.",
-    "category": "Fun",
-    "type": "prefix",
-    "usage": ".yhs",
-    "aliases": []
-  },
-  {
-    "name": "ylb",
-    "description": "Description available in the bot's help command.",
+    "name": "yarttop",
+    "description": "Show the top yart hitters!",
     "category": "Leaderboards",
     "type": "prefix",
-    "usage": ".ylb",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   },
   {
-    "name": "yt",
-    "description": "Description available in the bot's help command.",
+    "name": "youtube",
+    "description": "Searches YouTube for videos, channels, or playlists.",
     "category": "Fun",
     "type": "prefix",
-    "usage": ".yt",
-    "aliases": []
+    "arguments": [],
+    "permissions": [],
+    "load_error": false
   }
 ]
