@@ -6,7 +6,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".addcaptures @user1 @user2 ..."
   },
   {
     "name": "adopt",
@@ -15,6 +17,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -24,7 +27,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".afk [reason]"
   },
   {
     "name": "afk",
@@ -35,6 +40,7 @@
       "[reason]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -50,6 +56,7 @@
       "[memory]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -63,6 +70,7 @@
       "[argument]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -72,7 +80,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "ascii <text>"
   },
   {
     "name": "automod",
@@ -87,6 +97,7 @@
       "[messages]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -101,6 +112,7 @@
       "[list]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -115,6 +127,7 @@
       "[list]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -124,7 +137,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "b"
+    ],
+    "load_error": false,
+    "usage": "<user> [reason]"
   },
   {
     "name": "bandoroblox",
@@ -133,6 +150,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "bando-roblox"
+    ],
     "load_error": false
   },
   {
@@ -147,6 +167,7 @@
       "[calendar]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -156,7 +177,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "bl"
+    ],
+    "load_error": false,
+    "usage": ".blacklist <add|remove|view> <@user> [command/global] [reason]"
   },
   {
     "name": "blacklistcheck",
@@ -165,6 +190,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -174,6 +200,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -183,6 +210,10 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "blinkerhits",
+      "blb"
+    ],
     "load_error": false
   },
   {
@@ -192,7 +223,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "bc",
+      "bcount"
+    ],
+    "load_error": false,
+    "usage": "[@user | username | userID]"
   },
   {
     "name": "bookmarkmemory",
@@ -201,7 +237,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".bookmarkmemory <number>"
   },
   {
     "name": "bookmarks",
@@ -210,7 +248,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".bookmarks"
   },
   {
     "name": "breakup",
@@ -219,6 +259,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -228,6 +269,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -241,6 +283,7 @@
       "[delete]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -250,7 +293,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "calc <expression>"
   },
   {
     "name": "capture",
@@ -259,7 +304,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".capture @user | .capture album | .capture history | .capture leaderboard | .capture serverleaderboard"
   },
   {
     "name": "cashapp",
@@ -268,6 +315,10 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "cash",
+      "ca"
+    ],
     "load_error": false
   },
   {
@@ -277,7 +328,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "cat"
   },
   {
     "name": "cclean",
@@ -286,6 +339,24 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "purgecuss",
+      "cleanbad"
+    ],
+    "load_error": false,
+    "usage": ",cleancuss"
+  },
+  {
+    "name": "channel",
+    "description": "The ultimate tool for channel management.",
+    "category": "utility",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "aliases": [
+      "ch",
+      "channels"
+    ],
     "load_error": false
   },
   {
@@ -295,15 +366,21 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "cm"
+    ],
+    "load_error": false,
+    "usage": "<@user> [guildID]",
+    "cooldown": 5
   },
   {
     "name": "chess",
-    "description": "⚠️ Error: Cannot find module 'chess.js'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\Fun\\chess.js\n- C:\\s25\\lustsrc0\\getc.js",
+    "description": "⚠️ Could not load details for this command.",
     "category": "Fun",
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": true
   },
   {
@@ -313,7 +390,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "purgeuser",
+      "cmu"
+    ],
+    "load_error": false,
+    "usage": ".clearmessages <@user | user‑id>"
   },
   {
     "name": "clearsnipe",
@@ -322,6 +404,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "cs"
+    ],
     "load_error": false
   },
   {
@@ -331,6 +416,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -340,7 +426,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "compliment [@user]"
   },
   {
     "name": "contact",
@@ -349,7 +437,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".contact"
   },
   {
     "name": "copy",
@@ -358,7 +448,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".copy @user",
+    "userPermissions": [
+      "Administrator"
+    ]
   },
   {
     "name": "cquote",
@@ -367,7 +462,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "cquote [messageID] or reply to a message [img]"
   },
   {
     "name": "crypto",
@@ -376,6 +473,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "c",
+      "coin",
+      "price"
+    ],
     "load_error": false
   },
   {
@@ -385,7 +487,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "snuggle"
+    ],
+    "load_error": false,
+    "usage": "[@user]"
   },
   {
     "name": "dailyquote",
@@ -398,6 +504,7 @@
       "[stop]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -407,6 +514,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -416,6 +524,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -425,7 +534,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".deletememory <number>"
   },
   {
     "name": "disown",
@@ -434,6 +545,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -443,6 +555,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "breakup"
+    ],
     "load_error": false
   },
   {
@@ -460,6 +575,7 @@
       "[timestamp]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -469,7 +585,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".dmall <title> | <description> | <color (optional)>"
   },
   {
     "name": "dog",
@@ -478,7 +596,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "dog"
   },
   {
     "name": "embed",
@@ -487,6 +607,10 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "embeds",
+      "editembed"
+    ],
     "load_error": false
   },
   {
@@ -502,6 +626,7 @@
       "[send]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -511,7 +636,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "es"
+    ],
+    "load_error": false,
+    "usage": ".enslave @user"
   },
   {
     "name": "eval",
@@ -524,6 +653,7 @@
       "[ephemeral]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -541,6 +671,7 @@
       "[env]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -550,6 +681,10 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "convert",
+      "currency"
+    ],
     "load_error": false
   },
   {
@@ -559,7 +694,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".exportmemories"
   },
   {
     "name": "fact",
@@ -568,7 +705,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "fact"
   },
   {
     "name": "fakedm",
@@ -580,6 +719,7 @@
       "<message>"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -589,6 +729,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -598,7 +739,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "freaks",
+      "bodycount"
+    ],
+    "load_error": false,
+    "usage": "[optional @user]"
   },
   {
     "name": "fetchip",
@@ -607,15 +753,20 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "fip"
+    ],
+    "load_error": false,
+    "usage": "<@user>"
   },
   {
     "name": "fight",
-    "description": "⚠️ Error: Cannot find module '../../../utils/actionGifs'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\Fun\\fight.js\n- C:\\s25\\lustsrc0\\getc.js",
+    "description": "⚠️ Could not load details for this command.",
     "category": "Fun",
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": true
   },
   {
@@ -625,7 +776,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "<artist name>"
   },
   {
     "name": "findsong",
@@ -634,7 +787,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "song",
+      "search"
+    ],
+    "load_error": false,
+    "usage": "<song name>"
   },
   {
     "name": "firstmessage",
@@ -643,7 +801,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".firstmessage"
   },
   {
     "name": "flb",
@@ -652,6 +812,10 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "bcl",
+      "bodycount"
+    ],
     "load_error": false
   },
   {
@@ -661,7 +825,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "<@user> <nickname>"
   },
   {
     "name": "forcepair",
@@ -670,6 +836,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -679,7 +846,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "freakbattle",
+      "fo"
+    ],
+    "load_error": false,
+    "usage": "<username1> <username2> or <userID1> <userID2>"
   },
   {
     "name": "freaktop",
@@ -688,6 +860,10 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "freakwins",
+      "ftop"
+    ],
     "load_error": false
   },
   {
@@ -697,6 +873,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "forest"
+    ],
     "load_error": false
   },
   {
@@ -706,7 +885,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "vg",
+      "videogame"
+    ],
+    "load_error": false,
+    "cooldown": 10
   },
   {
     "name": "gangsta",
@@ -715,6 +899,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -724,7 +909,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "[user]"
   },
   {
     "name": "generatepassword",
@@ -733,7 +920,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "generatepassword [length] [simple|medium|strong]"
   },
   {
     "name": "gif",
@@ -742,6 +931,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -758,6 +948,7 @@
       "[list]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -770,6 +961,7 @@
       "[members]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -779,6 +971,10 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "gtouchlb",
+      "gtlb"
+    ],
     "load_error": false
   },
   {
@@ -788,7 +984,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "waistgrab"
+    ],
+    "load_error": false,
+    "usage": "[@user]"
   },
   {
     "name": "grabmessages",
@@ -797,7 +997,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "fetchmsgs",
+      "getmsgs"
+    ],
+    "load_error": false,
+    "usage": "<server_id> <channel_id> [limit]"
   },
   {
     "name": "grabwaist",
@@ -806,7 +1011,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "waistgrab"
+    ],
+    "load_error": false,
+    "usage": "[@user]"
   },
   {
     "name": "hangman",
@@ -815,7 +1024,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "hm"
+    ],
+    "load_error": false,
+    "activeGames": []
   },
   {
     "name": "hangstop",
@@ -824,6 +1037,10 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "stophang",
+      "hstop"
+    ],
     "load_error": false
   },
   {
@@ -837,7 +1054,22 @@
       "[list]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
+  },
+  {
+    "name": "hex",
+    "description": "Converts a color name to its HEX code and shows a preview.",
+    "category": "utility",
+    "type": "prefix",
+    "arguments": [],
+    "permissions": [],
+    "aliases": [
+      "color",
+      "hexcode"
+    ],
+    "load_error": false,
+    "usage": "hex <color_name>"
   },
   {
     "name": "hide",
@@ -846,7 +1078,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "chide",
+      "channelhide"
+    ],
+    "load_error": false,
+    "usage": "hide [#channel (optional)]"
   },
   {
     "name": "hitblinker",
@@ -855,6 +1092,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "blinker"
+    ],
     "load_error": false
   },
   {
@@ -864,6 +1104,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "yart"
+    ],
     "load_error": false
   },
   {
@@ -878,15 +1121,17 @@
       "[tts]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
     "name": "invites",
-    "description": "⚠️ Error: ENOENT: no such file or directory, open 'C:\\s25\\data\\invite_history.json'",
+    "description": "⚠️ Could not load details for this command.",
     "category": "utility",
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": true
   },
   {
@@ -898,6 +1143,7 @@
       "[user]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -907,6 +1153,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "ipinfo",
+      "geoip",
+      "ip-lookup",
+      "checkip"
+    ],
     "load_error": false
   },
   {
@@ -916,7 +1168,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".iplookup <ip_address>"
   },
   {
     "name": "jb5007s-roblox",
@@ -925,6 +1179,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -934,7 +1189,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "ye",
+      "yeezy"
+    ],
+    "load_error": false,
+    "cooldown": 5
   },
   {
     "name": "kanye",
@@ -943,6 +1203,7 @@
     "type": "slash",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -952,7 +1213,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "findsong",
+      "kanyesong"
+    ],
+    "load_error": false,
+    "cooldown": 10
   },
   {
     "name": "kanyesong",
@@ -961,6 +1227,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "ye-api"
+    ],
     "load_error": false
   },
   {
@@ -970,6 +1239,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -979,7 +1249,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "k"
+    ],
+    "load_error": false,
+    "usage": "<user> [reason]"
   },
   {
     "name": "kiss",
@@ -988,7 +1262,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "smooch",
+      "peck"
+    ],
+    "load_error": false,
+    "usage": "[@user]"
   },
   {
     "name": "leave",
@@ -1002,6 +1281,7 @@
       "[status]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1011,15 +1291,18 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "[user]"
   },
   {
     "name": "lick",
-    "description": "⚠️ Error: Cannot find module '../../../utils/actionGifs'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\Fun\\lick.js\n- C:\\s25\\lustsrc0\\getc.js",
+    "description": "⚠️ Could not load details for this command.",
     "category": "Fun",
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": true
   },
   {
@@ -1029,6 +1312,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1038,7 +1322,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "lockdown",
+      "channellock"
+    ],
+    "load_error": false,
+    "usage": "lock [#channel (optional)]"
   },
   {
     "name": "logs",
@@ -1050,6 +1339,7 @@
       "[audit]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1059,6 +1349,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1068,6 +1359,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1077,7 +1369,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "lyrics <song name>"
   },
   {
     "name": "mac",
@@ -1086,6 +1380,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "maclookup",
+      "oui",
+      "vendor"
+    ],
     "load_error": false
   },
   {
@@ -1095,7 +1394,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".maclookup <mac_address>"
   },
   {
     "name": "maintenance",
@@ -1106,6 +1407,7 @@
       "[message]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1115,6 +1417,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1124,7 +1427,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "<math expression>"
   },
   {
     "name": "meme",
@@ -1133,6 +1438,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "randommeme"
+    ],
     "load_error": false
   },
   {
@@ -1142,7 +1450,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".memories"
   },
   {
     "name": "memory",
@@ -1151,7 +1461,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".memory (as a reply)"
   },
   {
     "name": "memoryinfo",
@@ -1160,7 +1472,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".memoryinfo <number>"
   },
   {
     "name": "mock",
@@ -1169,7 +1483,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "mock <text>"
   },
   {
     "name": "msm",
@@ -1178,7 +1494,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "[user mention or ID]"
   },
   {
     "name": "music",
@@ -1196,6 +1514,7 @@
       "[volume]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1207,6 +1526,7 @@
       "[command]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1216,7 +1536,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "nick",
+      "setnickname"
+    ],
+    "load_error": false,
+    "usage": "<user> <nickname>"
   },
   {
     "name": "owoify",
@@ -1225,7 +1550,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "owoify <text>"
   },
   {
     "name": "passwordstrength",
@@ -1234,7 +1561,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "passwordstrength <password>"
   },
   {
     "name": "passwordstrength",
@@ -1243,15 +1572,17 @@
     "type": "slash",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
     "name": "pat",
-    "description": "⚠️ Error: Cannot find module '../../../utils/actionGifs'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\Fun\\pat.js\n- C:\\s25\\lustsrc0\\getc.js",
+    "description": "⚠️ Could not load details for this command.",
     "category": "Fun",
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": true
   },
   {
@@ -1261,7 +1592,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "boop"
+    ],
+    "load_error": false,
+    "usage": "[@user]"
   },
   {
     "name": "profile",
@@ -1270,6 +1605,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "prof"
+    ],
     "load_error": false
   },
   {
@@ -1279,6 +1617,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "pedit"
+    ],
     "load_error": false
   },
   {
@@ -1288,15 +1629,17 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
     "name": "punc",
-    "description": "⚠️ Error: Cannot find module '../../../utils/actionGifs'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\Fun\\punc.js\n- C:\\s25\\lustsrc0\\getc.js",
+    "description": "⚠️ Could not load details for this command.",
     "category": "Fun",
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": true
   },
   {
@@ -1306,7 +1649,13 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "clear",
+      "prune",
+      "clean"
+    ],
+    "load_error": false,
+    "usage": "<amount> [@user] [\"text to filter\"]"
   },
   {
     "name": "qr",
@@ -1315,7 +1664,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "qr <text or url>"
   },
   {
     "name": "quote",
@@ -1324,6 +1675,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "q"
+    ],
     "load_error": false
   },
   {
@@ -1333,7 +1687,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".randmemory"
   },
   {
     "name": "rate",
@@ -1342,7 +1698,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "rating"
+    ],
+    "load_error": false,
+    "usage": ".rate <type> [@user|text]"
   },
   {
     "name": "rblx",
@@ -1351,6 +1711,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "roblox"
+    ],
     "load_error": false
   },
   {
@@ -1360,6 +1723,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1369,7 +1733,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "free"
+    ],
+    "load_error": false,
+    "usage": ".release @user"
   },
   {
     "name": "remindme",
@@ -1378,7 +1746,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "rem"
+    ],
+    "load_error": false,
+    "usage": "<time> <text>"
   },
   {
     "name": "remixavatar",
@@ -1387,7 +1759,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "remixavatar [@user]"
   },
   {
     "name": "restorenick",
@@ -1396,7 +1770,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".restorenick @user",
+    "userPermissions": [
+      "Administrator"
+    ]
   },
   {
     "name": "restoreroles",
@@ -1405,7 +1784,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".restoreroles @user",
+    "userPermissions": [
+      "Administrator"
+    ]
   },
   {
     "name": "retire",
@@ -1414,7 +1798,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".retire"
   },
   {
     "name": "retire",
@@ -1423,6 +1809,7 @@
     "type": "slash",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1432,7 +1819,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".retireset @role1 [@role2 ... @role15] [--retired @retiredrole]",
+    "userPermissions": [
+      "Administrator"
+    ]
   },
   {
     "name": "retireset",
@@ -1457,6 +1849,7 @@
       "[role15]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1466,6 +1859,19 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "roles",
+      "giverole",
+      "addrole",
+      "removerole",
+      "takerole",
+      "editrole",
+      "gr",
+      "ar",
+      "rr",
+      "tr",
+      "er"
+    ],
     "load_error": false
   },
   {
@@ -1475,6 +1881,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1487,6 +1894,7 @@
       "[file_to_send]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1496,6 +1904,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "scram"
+    ],
     "load_error": false
   },
   {
@@ -1505,7 +1916,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".searchmemories <keyword>"
   },
   {
     "name": "serversi",
@@ -1514,7 +1927,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".serversi"
   },
   {
     "name": "serverstats",
@@ -1526,6 +1941,7 @@
       "[disable-member-counter]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1537,6 +1953,7 @@
       "<image>"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1546,7 +1963,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "<user> <hit count>"
   },
   {
     "name": "setbody",
@@ -1555,7 +1974,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "setfreak",
+      "setbodies"
+    ],
+    "load_error": false,
+    "usage": "@user <number>"
   },
   {
     "name": "setfreakwins",
@@ -1564,7 +1988,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "setwins",
+      "sfw"
+    ],
+    "load_error": false,
+    "usage": "<@user> <number>"
   },
   {
     "name": "setpfp",
@@ -1575,6 +2004,7 @@
       "<image>"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1586,6 +2016,7 @@
       "<prefix>"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1595,7 +2026,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "<user1> <user2> <count>"
   },
   {
     "name": "setyart",
@@ -1604,7 +2037,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "<user> <hit count>"
   },
   {
     "name": "sharememory",
@@ -1613,7 +2048,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".sharememory <number> [@user|#channel]"
   },
   {
     "name": "ship",
@@ -1622,7 +2059,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": ".ship @user1 @user2 [percentage]"
   },
   {
     "name": "ship",
@@ -1634,6 +2073,7 @@
       "<user2>"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1643,7 +2083,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "shorten <url>"
   },
   {
     "name": "shutdown",
@@ -1652,15 +2094,17 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
     "name": "slap",
-    "description": "⚠️ Error: Cannot find module '../../../utils/actionGifs'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\Fun\\slap.js\n- C:\\s25\\lustsrc0\\getc.js",
+    "description": "⚠️ Could not load details for this command.",
     "category": "Fun",
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": true
   },
   {
@@ -1670,7 +2114,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "myslaves"
+    ],
+    "load_error": false,
+    "usage": ".slaves"
   },
   {
     "name": "slowmode",
@@ -1679,7 +2127,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "sm",
+      "setslow"
+    ],
+    "load_error": false,
+    "usage": "slowmode [time] [#channel (optional)]"
   },
   {
     "name": "snipe",
@@ -1688,6 +2141,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "s"
+    ],
     "load_error": false
   },
   {
@@ -1697,7 +2153,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "sb"
+    ],
+    "load_error": false,
+    "usage": "<user> [reason]"
   },
   {
     "name": "spinwheel",
@@ -1706,6 +2166,10 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "spin",
+      "wheel"
+    ],
     "load_error": false
   },
   {
@@ -1715,15 +2179,19 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "dbinfo"
+    ],
     "load_error": false
   },
   {
     "name": "ss",
-    "description": "⚠️ Error: Cannot find module 'puppeteer'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\utility\\ss.js\n- C:\\s25\\lustsrc0\\getc.js",
+    "description": "⚠️ Could not load details for this command.",
     "category": "utility",
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": true
   },
   {
@@ -1733,6 +2201,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1745,6 +2214,7 @@
       "[remove]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1754,7 +2224,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "tb"
+    ],
+    "load_error": false,
+    "usage": "<user> <duration> [reason]"
   },
   {
     "name": "timeout",
@@ -1763,7 +2237,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "to"
+    ],
+    "load_error": false,
+    "usage": "<user mention or ID> <duration> [reason]"
   },
   {
     "name": "timezone",
@@ -1772,7 +2250,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "timezone <location>"
   },
   {
     "name": "touchedby",
@@ -1781,6 +2261,10 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "tb",
+      "tby"
+    ],
     "load_error": false
   },
   {
@@ -1790,7 +2274,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "touchlb",
+      "tlb"
+    ],
+    "load_error": false,
+    "usage": "[optional @user or name]"
   },
   {
     "name": "translate",
@@ -1799,7 +2288,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "trans"
+    ],
+    "load_error": false,
+    "usage": "translate [target_lang_code] <text to translate>"
   },
   {
     "name": "tree",
@@ -1808,6 +2301,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1817,6 +2311,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1826,7 +2321,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "kanyetweet",
+      "yeezus"
+    ],
+    "load_error": false,
+    "cooldown": 5
   },
   {
     "name": "tweet-bad",
@@ -1835,7 +2335,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "goodtweet",
+      "positivetweet"
+    ],
+    "load_error": false,
+    "cooldown": 5
   },
   {
     "name": "type",
@@ -1844,7 +2349,12 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "typetest",
+      "speedtype"
+    ],
+    "load_error": false,
+    "usage": "!type [easy | medium | hard | impossible]"
   },
   {
     "name": "unban",
@@ -1853,7 +2363,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "ub"
+    ],
+    "load_error": false,
+    "usage": "<userID> [reason]"
   },
   {
     "name": "unblacklistuser",
@@ -1862,6 +2376,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1871,7 +2386,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "<@user>"
   },
   {
     "name": "unhide",
@@ -1880,7 +2397,13 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "cunhide",
+      "channelunhide",
+      "reveal"
+    ],
+    "load_error": false,
+    "usage": "unhide [#channel (optional)]"
   },
   {
     "name": "unlock",
@@ -1889,7 +2412,13 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "unlockdown",
+      "channelunlock",
+      "unfreeze"
+    ],
+    "load_error": false,
+    "usage": "unlock [#channel (optional)]"
   },
   {
     "name": "unmute",
@@ -1898,7 +2427,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [],
+    "load_error": false,
+    "usage": "<user> [reason]"
   },
   {
     "name": "unrole",
@@ -1907,7 +2438,14 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "removerole",
+      "takerole",
+      "rr",
+      "tr"
+    ],
+    "load_error": false,
+    "usage": "unrole <@user|userID|username> <@role|roleID|roleName>"
   },
   {
     "name": "untimeout",
@@ -1916,7 +2454,11 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "uto"
+    ],
+    "load_error": false,
+    "usage": "<user mention or ID>"
   },
   {
     "name": "urban",
@@ -1925,15 +2467,17 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
     "name": "utils",
-    "description": "⚠️ Error: File is not a valid command structure.",
+    "description": "⚠️ Could not load details for this command.",
     "category": "Love",
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": true
   },
   {
@@ -1943,6 +2487,10 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "hit",
+      "puff"
+    ],
     "load_error": false
   },
   {
@@ -1952,6 +2500,10 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "v",
+      "rep"
+    ],
     "load_error": false
   },
   {
@@ -1961,6 +2513,10 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "vouch-history",
+      "vh"
+    ],
     "load_error": false
   },
   {
@@ -1970,6 +2526,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1979,6 +2536,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -1988,15 +2546,17 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
     "name": "wave",
-    "description": "⚠️ Error: Cannot find module '../../../utils/actionGifs'\nRequire stack:\n- C:\\s25\\lustsrc0\\src\\commands\\prefix\\Fun\\wave.js\n- C:\\s25\\lustsrc0\\getc.js",
+    "description": "⚠️ Could not load details for this command.",
     "category": "Fun",
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": true
   },
   {
@@ -2006,6 +2566,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -2020,6 +2581,7 @@
       "[config]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -2034,6 +2596,7 @@
       "[status]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -2043,7 +2606,13 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
-    "load_error": false
+    "aliases": [
+      "cold",
+      "whatiscold",
+      "colddd"
+    ],
+    "load_error": false,
+    "usage": "whatscold"
   },
   {
     "name": "whitelist",
@@ -2056,6 +2625,7 @@
       "[list]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -2065,6 +2635,10 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "domaininfo",
+      "whoisdomain"
+    ],
     "load_error": false
   },
   {
@@ -2079,6 +2653,7 @@
       "[view]"
     ],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -2088,6 +2663,7 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [],
     "load_error": false
   },
   {
@@ -2097,6 +2673,10 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "yarthits",
+      "yartlb"
+    ],
     "load_error": false
   },
   {
@@ -2106,6 +2686,9 @@
     "type": "prefix",
     "arguments": [],
     "permissions": [],
+    "aliases": [
+      "yt"
+    ],
     "load_error": false
   }
 ]
